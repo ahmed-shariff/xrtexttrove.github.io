@@ -1,0 +1,332 @@
+{
+  "attributes" : [
+    {
+      "key" : "id",
+      "title" : "Name",
+      "parent" : "General",
+      "type" : "textbox",
+      "filter" : false,
+      "display" : false
+    },
+    {
+      "key" : "figure",
+      "title" : "Figure",
+      "parent" : "General",
+      "type" : "upload",
+      "filter" : false,
+      "display" : false
+    },
+    {
+      "key" : "source",
+      "title" : "Source",
+      "parent" : "General",
+      "type" : "link",
+      "filter" : false,
+      "display" : true
+    },
+    {
+      "key" : "title",
+      "title" : "Publication",
+      "parent" : "General",
+      "type" : "link",
+      "filter" : false,
+      "display" : true
+    },
+    {
+      "key" : "inputDevice",
+      "title" : "Input Device",
+      "parent" : "Implementation",
+      "type" : "checkbox",
+      "active" : false,
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "keyboardBackendAlgorithmicAssitance",
+      "title" : "Keyboard Backend",
+      "parent" : "Implementation",
+      "type" : "checkbox",
+      "active" : false,
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "bodyPartForInput",
+      "title" : "Body Part For Input",
+      "parent" : "Implementation",
+      "type" : "checkbox",
+      "active" : false,
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "hapticFeedbackModality",
+      "title" : "Haptic Feedback Modality",
+      "parent" : "Implementation",
+      "type" : "checkbox",
+      "active" : false,
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "hapticFeedback",
+      "title" : "Haptic Feedback",
+      "parent" : "Multi-level",
+      "type" : "multi_select",
+      "active" : false,
+      "values" : [
+        {
+          "title" : "None",
+          "value" : "None",
+          "checked" : false
+        },
+        {
+          "title" : "Hovering",
+          "value" : "Hovering",
+          "checked" : false
+        },
+        {
+          "title" : "Activation",
+          "value" : "Key Activatio",
+          "checked" : false
+        },
+        {
+          "title" : "Other",
+          "value" : "Other",
+          "checked" : false
+        }
+      ],
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "audioFeedback",
+      "title" : "Audio Feedback",
+      "parent" : "Multi-level",
+      "type" : "multi_select",
+      "active" : false,
+      "values" : [
+        {
+          "title" : "None",
+          "value" : "None",
+          "checked" : false
+        },
+        {
+          "title" : "Hovering",
+          "value" : "Hovering",
+          "checked" : false
+        },
+        {
+          "title" : "Activation",
+          "value" : "Key Activatio",
+          "checked" : false
+        },
+        {
+          "title" : "Other",
+          "value" : "Other",
+          "checked" : false
+        }
+      ],
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "visualFeedback",
+      "title" : "Visual Feedback",
+      "parent" : "Multi-level",
+      "type" : "multi_select",
+      "active" : false,
+      "values" : [
+        {
+          "title" : "None",
+          "value" : "None",
+          "checked" : false
+        },
+        {
+          "title" : "Hovering",
+          "value" : "Hovering",
+          "checked" : false
+        },
+        {
+          "title" : "Activation",
+          "value" : "Key Activatio",
+          "checked" : false
+        },
+        {
+          "title" : "Other",
+          "value" : "Other",
+          "checked" : false
+        }
+      ],
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "visualBodyRepresentation",
+      "title" : "Visual Body Representation",
+      "parent" : "Implementation",
+      "type" : "checkbox",
+      "active" : false,
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "visualKeyboardRepresentation",
+      "title" : "Visual Keyboard Representation",
+      "parent" : "Implementation",
+      "type" : "checkbox",
+      "active" : false,
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "keyboardLayout",
+      "title" : "Keyboard Layout",
+      "parent" : "Implementation",
+      "type" : "checkbox",
+      "active" : false,
+      "filter" : false,
+      "display" : true
+    },
+    {
+      "key" : "canBeMobile",
+      "title" : "Can it be mobile?",
+      "parent" : "Binary",
+      "type" : "multi_select",
+      "active" : false,
+      "values" : [
+        {
+          "title" : "On the Go",
+          "value" : "On the go",
+          "checked" : false
+        },
+        {
+          "title" : "Stationary",
+          "value" : "Stationary",
+          "checked" : false
+        }
+      ],
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "concurrencyNumberOfPossibleInputPoints",
+      "title" : "Concurrency",
+      "parent" : "Multi-level",
+      "type" : "multi_select",
+      "active" : false,
+      "values" : [
+        {
+          "title" : "one",
+          "value" : "One",
+          "checked" : false
+        },
+        {
+          "title" : "two",
+          "value" : "Two",
+          "checked" : false
+        },
+        {
+          "title" : "multiple",
+          "value" : "Multiple",
+          "checked" : false
+        },
+        {
+          "title" : "other",
+          "value" : "Other",
+          "checked" : false
+        }
+      ],
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "phraseSet",
+      "title" : "Phrase Set",
+      "parent" : "General",
+      "type" : "textbox",
+      "filter" : false,
+      "display" : false
+    },
+    {
+      "key" : "vrar",
+      "title" : "VR/AR",
+      "parent" : "Multi-level",
+      "type" : "multi_select",
+      "active" : false,
+      "values" : [
+        {
+          "title" : "VR only",
+          "value" : "VR only",
+          "checked" : false
+        },
+        {
+          "title" : "AR only",
+          "value" : "VR only",
+          "checked" : false
+        },
+        {
+          "title" : "Both",
+          "value" : "Both",
+          "checked" : false
+        }
+      ],
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "errorRate",
+      "title" : "Error Rate",
+      "parent" : "General",
+      "type" : "textbox",
+      "filter" : false,
+      "display" : true
+    },
+    {
+      "key" : "nasaTlxScore",
+      "title" : "NASA TLX Score",
+      "parent" : "General",
+      "type" : "textbox",
+      "filter" : false,
+      "display" : true
+    },
+    {
+      "key" : "otherMetrics",
+      "title" : "Other Metrics",
+      "parent" : "General",
+      "type" : "textbox",
+      "filter" : false,
+      "display" : true
+    },
+    {
+      "key" : "study",
+      "title" : "Study",
+      "parent" : "Binary",
+      "type" : "multi_select",
+      "active" : false,
+      "values" : [
+        {
+          "title" : "Yes",
+          "value" : "Yes",
+          "checked" : false
+        },
+        {
+          "title" : "No",
+          "value" : "No",
+          "checked" : false
+        }
+      ],
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "wordsPerMinute",
+      "title" : "Speed(WPM)",
+      "parent" : "General",
+      "type" : "range_slider",
+      "valueMatching" : "range",
+      "filter" : true,
+      "display" : true
+    }
+  ]
+}

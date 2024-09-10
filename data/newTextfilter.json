@@ -1,0 +1,447 @@
+{
+  "attributes" : [
+    {
+      "key" : "id",
+      "title" : "Name",
+      "parent" : "General",
+      "type" : "textbox",
+      "filter" : false,
+      "display" : false
+    },
+    {
+      "key" : "figure",
+      "title" : "Figure",
+      "parent" : "General",
+      "type" : "upload",
+      "filter" : false,
+      "display" : false
+    },
+    {
+      "key" : "source",
+      "title" : "Source",
+      "parent" : "General",
+      "type" : "link",
+      "filter" : false,
+      "display" : true
+    },
+    {
+      "key" : "title",
+      "title" : "Publication",
+      "parent" : "General",
+      "type" : "link",
+      "filter" : false,
+      "display" : true
+    },
+    {
+        "key" : "year",
+        "title" : "Year",
+        "parent" : "General",
+        "type" : "range_slider",
+        "valueMatching" : "range",
+        "filter" : true,
+        "display" : true
+      },
+      {
+      "key" : "origin",
+      "title" : "Origin",
+      "parent" : "General",
+      "type" : "textarea",
+      "filter" : false,
+      "display" : true
+    },
+    {
+        "key" : "wordsperminute",
+        "title" : "Speed(WPM)",
+        "parent" : "Performance Metrics",
+        "type" : "range_slider",
+        "valueMatching" : "range",
+        "filter" : true,
+        "display" : true
+    },
+    {
+        "key" : "inputDevice",
+        "title" : "Input Device",
+        "parent" : "Interaction Attributes",
+        "type" : "checkbox",
+        "active" : false,
+        "filter" : true,
+        "display" : true
+      },
+    {
+      "key" : "keyboardBackendAlgorithmicAssitance",
+      "title" : "Keyboard Backend",
+      "parent" : "Interaction Attributes",
+      "type" : "checkbox",
+      "active" : false,
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "bodyPartForInput",
+      "title" : "Body Part For Input",
+      "parent" : "Interaction Attributes",
+      "type" : "checkbox",
+      "active" : false,
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "hapticFeedbackModality",
+      "title" : "Haptic Feedback Modality",
+      "parent" : "Interaction Attributes",
+      "type" : "checkbox",
+      "active" : false,
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "hapticFeedback",
+      "title" : "Haptic Feedback",
+      "parent" : "Interaction Attributes",
+      "type" : "multi_select",
+      "active" : false,
+      "values" : [
+        {
+          "title" : "None",
+          "value" : "None",
+          "checked" : false
+        },
+        {
+          "title" : "Hovering",
+          "value" : "Hovering",
+          "checked" : false
+        },
+        {
+          "title" : "Activation",
+          "value" : "Key activation",
+          "checked" : false
+        },
+        {
+          "title" : "Other",
+          "value" : "Other",
+          "checked" : false
+        }
+      ],
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "audioFeedback",
+      "title" : "Audio Feedback",
+      "parent" : "Interaction Attributes",
+      "type" : "multi_select",
+      "active" : false,
+      "values" : [
+        {
+          "title" : "None",
+          "value" : "None",
+          "checked" : false
+        },
+        {
+          "title" : "Hovering",
+          "value" : "Hovering",
+          "checked" : false
+        },
+        {
+          "title" : "Activation",
+          "value" : "Key activation",
+          "checked" : false
+        },
+        {
+          "title" : "Other",
+          "value" : "Other",
+          "checked" : false
+        }
+      ],
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "visualFeedback",
+      "title" : "Visual Feedback",
+      "parent" : "Interaction Attributes",
+      "type" : "multi_select",
+      "active" : false,
+      "values" : [
+        {
+          "title" : "None",
+          "value" : "None",
+          "checked" : false
+        },
+        {
+          "title" : "Hovering",
+          "value" : "Hovering",
+          "checked" : false
+        },
+        {
+          "title" : "Activation",
+          "value" : "Key activation",
+          "checked" : false
+        },
+        {
+          "title" : "Other",
+          "value" : "Other",
+          "checked" : false
+        }
+      ],
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "visualBodyRepresentation",
+      "title" : "Visual Body Representation",
+      "parent" : "Interaction Attributes",
+      "type" : "checkbox",
+      "active" : false,
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "visualKeyboardRepresentation",
+      "title" : "Visual Keyboard Representation",
+      "parent" : "Interaction Attributes",
+      "type" : "checkbox",
+      "active" : false,
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "keyboardLayout",
+      "title" : "Keyboard Layout",
+      "parent" : "Interaction Attributes",
+      "type" : "checkbox",
+      "active" : false,
+      "filter" : false,
+      "display" : true
+    },
+    {
+      "key" : "canBeMobile",
+      "title" : "Can it be mobile?",
+      "parent" : "Interaction Attributes",
+      "type" : "multi_select",
+      "active" : false,
+      "values" : [
+        {
+          "title" : "On the Go",
+          "value" : "On the go",
+          "checked" : false
+        },
+        {
+          "title" : "Stationary",
+          "value" : "Stationary",
+          "checked" : false
+        }
+      ],
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "concurrencyNumberOfPossibleInputPoints",
+      "title" : "Concurrency",
+      "parent" : "Interaction Attributes",
+      "type" : "multi_select",
+      "active" : false,
+      "values" : [
+        {
+          "title" : "one",
+          "value" : "one",
+          "checked" : false
+        },
+        {
+          "title" : "two",
+          "value" : "two",
+          "checked" : false
+        },
+        {
+          "title" : "multiple",
+          "value" : "multiple",
+          "checked" : false
+        }
+      ],
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "phraseSet",
+      "title" : "Phrase Set",
+      "parent" : "General",
+      "type" : "textbox",
+      "filter" : false,
+      "display" : false
+    },
+    {
+      "key" : "vrar",
+      "title" : "VR/AR",
+      "parent" : "Interaction Attributes",
+      "type" : "multi_select",
+      "active" : false,
+      "values" : [
+        {
+          "title" : "VR only",
+          "value" : "VR only",
+          "checked" : false
+        },
+        {
+          "title" : "AR only",
+          "value" : "VR only",
+          "checked" : false
+        },
+        {
+          "title" : "Both",
+          "value" : "Both",
+          "checked" : false
+        }
+      ],
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "study",
+      "title" : "Study",
+      "parent" : "General",
+      "type" : "multi_select",
+      "active" : false,
+      "values" : [
+        {
+          "title" : "Yes",
+          "value" : "Yes",
+          "checked" : false
+        },
+        {
+          "title" : "No",
+          "value" : "No",
+          "checked" : false
+        }
+      ],
+      "filter" : true,
+      "display" : true
+    },
+    {
+        "key" : "cer",
+        "title" : "CER (corrected ER)",
+        "parent" : "Performance Metrics",
+        "type" : "range_slider",
+        "valueMatching" : "range",
+        "filter" : false,
+        "display" : true
+    },
+    {
+        "key" : "uer",
+        "title" : "UER (uncorrected ER)",
+        "parent" : "Performance Metrics",
+        "type" : "range_slider",
+        "valueMatching" : "range",
+        "filter" : false,
+        "display" : true
+    },
+    {
+        "key" : "ter",
+        "title" : "TER (total ER)",
+        "parent" : "Performance Metrics",
+        "type" : "range_slider",
+        "valueMatching" : "range",
+        "filter" : true,
+        "display" : true
+    },
+    {
+        "key" : "msder",
+        "title" : "MSD ER",
+        "parent" : "Performance Metrics",
+        "type" : "range_slider",
+        "valueMatching" : "range",
+        "active" : false,
+        "filter" : true,
+        "display" : true
+      },
+      {
+          "key" : "er",
+          "title" : "ER",
+          "parent" : "Performance Metrics",
+          "type" : "range_slider",
+          "valueMatching" : "range",
+          "filter" : false,
+          "display" : true
+      },
+      {
+          "key" : "wer",
+          "title" : "WER (word ER)",
+          "parent" : "Performance Metrics",
+          "type" : "range_slider",
+          "valueMatching" : "range",
+          "filter" : false,
+          "display" : true
+      },
+  
+      {
+        "key" : "overallTLX",
+        "title" : "Overall TLX",
+        "parent" : "Performance Metrics",
+          "type" : "range_slider",
+          "valueMatching" : "range",
+          "filter" : false,
+          "display" : true
+      },
+      {
+        "key" : "mental",
+        "title" : "Mental",
+        "parent" : "Performance Metrics",
+        "type" : "range_slider",
+        "valueMatching" : "range",
+        "filter" : false,
+        "display" : true
+    },
+    {
+        "key" : "physical",
+        "title" : "Physical",
+        "parent" : "Performance Metrics",
+        "type" : "range_slider",
+        "valueMatching" : "range",
+        "filter" : false,
+        "display" : true
+    },
+    {
+        "key" : "temporal",
+        "title" : "Temporal",
+        "parent" : "Performance Metrics",
+        "type" : "range_slider",
+        "valueMatching" : "range",
+        "filter" : false,
+        "display" : true
+    },
+    {
+        "key" : "performance",
+        "title" : "Performance",
+        "parent" : "Performance Metrics",
+        "type" : "range_slider",
+        "valueMatching" : "range",
+        "filter" : false,
+        "display" : true
+    },
+    {
+        "key" : "effort",
+        "title" : "Effort",
+        "parent" : "Performance Metrics",
+        "type" : "range_slider",
+        "valueMatching" : "range",
+        "filter" : false,
+        "display" : true
+    },
+    {
+        "key" : "frustration",
+        "title" : "Frustration",
+        "parent" : "Performance Metrics",
+        "type" : "range_slider",
+        "valueMatching" : "range",
+        "filter" : false,
+        "display" : true
+    },
+    {
+        "key" : "otherMetrics",
+        "title" : "Other Metrics",
+        "parent" : "Performance Metrics",
+        "type" : "textbox",
+        "filter" : false,
+        "display" : true
+      }
+  ]
+}
