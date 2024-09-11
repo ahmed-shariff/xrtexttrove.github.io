@@ -302,12 +302,12 @@
         },
         {
           "title" : "AR only",
-          "value" : "VR only",
+          "value" : "AR only",
           "checked" : false
         },
         {
-          "title" : "Both",
-          "value" : "Both",
+          "title" : "both",
+          "value" : "both",
           "checked" : false
         }
       ],
