@@ -45,9 +45,28 @@
       "key" : "origin",
       "title" : "Origin",
       "parent" : "General",
-      "type" : "textarea",
-      "filter" : false,
+      "type" : "multi_select",
+      "active" : false,
+      "values" : [
+        {
+          "title" : "Academia",
+          "value" : "Academia",
+          "checked" : false
+        },
+        {
+          "title" : "Industry",
+          "value" : "Industry",
+          "checked" : false
+        },
+        {
+          "title" : "Hobbyist",
+          "value" : "Hobbyist",
+          "checked" : false
+        }
+      ],
+      "filter" : true,
       "display" : true
+    
     },
     {
         "key" : "wordsperminute",
