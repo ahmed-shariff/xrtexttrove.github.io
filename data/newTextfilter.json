@@ -69,15 +69,6 @@
     
     },
     {
-        "key" : "wordsperminute",
-        "title" : "Speed(WPM)",
-        "parent" : "Performance Metrics",
-        "type" : "range_slider",
-        "valueMatching" : "range",
-        "filter" : true,
-        "display" : true
-    },
-    {
         "key" : "inputDevice",
         "title" : "Input Device",
         "parent" : "Interaction Attributes",
@@ -111,6 +102,33 @@
       "type" : "checkbox",
       "active" : false,
       "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "visualBodyRepresentation",
+      "title" : "Visual Body Representation",
+      "parent" : "Interaction Attributes",
+      "type" : "checkbox",
+      "active" : false,
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "visualKeyboardRepresentation",
+      "title" : "Visual Keyboard Representation",
+      "parent" : "Interaction Attributes",
+      "type" : "checkbox",
+      "active" : false,
+      "filter" : true,
+      "display" : true
+    },
+    {
+      "key" : "keyboardLayout",
+      "title" : "Keyboard Layout",
+      "parent" : "Interaction Attributes",
+      "type" : "checkbox",
+      "active" : false,
+      "filter" : false,
       "display" : true
     },
     {
@@ -204,33 +222,6 @@
         }
       ],
       "filter" : true,
-      "display" : true
-    },
-    {
-      "key" : "visualBodyRepresentation",
-      "title" : "Visual Body Representation",
-      "parent" : "Interaction Attributes",
-      "type" : "checkbox",
-      "active" : false,
-      "filter" : true,
-      "display" : true
-    },
-    {
-      "key" : "visualKeyboardRepresentation",
-      "title" : "Visual Keyboard Representation",
-      "parent" : "Interaction Attributes",
-      "type" : "checkbox",
-      "active" : false,
-      "filter" : true,
-      "display" : true
-    },
-    {
-      "key" : "keyboardLayout",
-      "title" : "Keyboard Layout",
-      "parent" : "Interaction Attributes",
-      "type" : "checkbox",
-      "active" : false,
-      "filter" : false,
       "display" : true
     },
     {
@@ -335,6 +326,15 @@
       "filter" : true,
       "display" : true
     },
+    {
+      "key" : "wordsperminute",
+      "title" : "Speed(WPM)",
+      "parent" : "Performance Metrics",
+      "type" : "range_slider",
+      "valueMatching" : "range",
+      "filter" : true,
+      "display" : true
+  },
     {
         "key" : "cer",
         "title" : "CER (corrected ER)",
