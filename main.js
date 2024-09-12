@@ -4,10 +4,6 @@
  var defaultConfig = {};
 // read data
  Promise.all([
-    //d3.json("./data/locomotionvault-dataset.json"),//locomotionvault-30-08-2020.json"),
-    //d3.json("./data/filterConfig.json")
-     //d3.json("./data/Typingdata.json"),
-     //d3.json("./data/Textfilter.json")
      d3.json("./data/Typingdatafin.json"),
      d3.json("./data/newTextfilter.json")
 	]).then(function(files) { 
@@ -29,50 +25,77 @@
 
 	});
 
-function filterNodes() {
-  nodes = originalData_nodes;
-  links = originalData_links;
-
-  nodes = nodes.filter( function(d) {
-    var decision = true;
-    fM.filters
-      .filter(function(d) {
-        return d.active;
-      })
-      .forEach(function(activeFilter) {
-        switch(activeFilter.valueMatching) {
-          // Check if at least 1 value overlaps between two arrays
-    	    case "arrayIntersection":
-    	    break;
-    	    case "range":
-	            if(d[activeFilter.key] < activeFilter.selectedValues[0] || d[activeFilter.key] > activeFilter.selectedValues[1])
-	              decision = false;
-              if(d[activeFilter.key] =="")
+  function filterNodes() {
+    nodes = originalData_nodes;
+    links = originalData_links;
+  
+    nodes = nodes.filter(function(d) {
+      var decision = true;
+  
+      fM.filters
+        .filter(function(d) {
+          return d.active;
+        })
+        .forEach(function(activeFilter) {
+          switch(activeFilter.valueMatching) {
+  
+            // Array intersection logic: check if at least one value overlaps between two arrays
+            case "arrayIntersection":
+              if (!d[activeFilter.key] || !Array.isArray(d[activeFilter.key])) {
+                decision = false;
+                break;
+              }
+              // Check if there is any overlap between selectedValues and the node's array
+              const intersection = d[activeFilter.key].some(value => activeFilter.selectedValues.includes(value));
+              if (!intersection) {
+                decision = false;
+              }
+              break;
+  
+            // Range check (kept as it was)
+            case "range":
+              if (d[activeFilter.key] < activeFilter.selectedValues[0] || d[activeFilter.key] > activeFilter.selectedValues[1])
+                decision = false;
+              if (d[activeFilter.key] == "")
                 decision = true;
-            break;
-    	    default:
-            	if(!activeFilter.selectedValues.includes(d[activeFilter.key]))
-              		decision = false;
-    	}
+              break;
+  
+            // Default case: checking for an array match instead of an exact match
+            default:
+              if (Array.isArray(d[activeFilter.key])) {
+                // Check if at least one element in the node's array matches the selected values
+                const arrayMatch = d[activeFilter.key].some(value => activeFilter.selectedValues.includes(value));
+                if (!arrayMatch) {
+                  decision = false;
+                }
+              } else {
+                // Fallback for non-array values (exact match)
+                if (!activeFilter.selectedValues.includes(d[activeFilter.key])) {
+                  decision = false;
+                }
+              }
+          }
+        });
+  
+      return decision;
     });
-
-    return decision;
-  });
-
-  var currNodes = nodes.map(nodes => nodes.id);
-
-  links = links.filter(function(d){	
-  	var decision = true;
-  	if(!currNodes.includes(d.source) || !currNodes.includes(d.target))
-  		decision = false;
-  	return decision;
-
-  });
-  mydata.nodes = nodes;
-  mydata.links = links;
-  mydata.attribute_groups = originalData_attribute_groups;
-  // console.log(mydata.attribute_groups)
-}
+  
+    // Filter links based on the filtered nodes
+    var currNodes = nodes.map(node => node.id);
+  
+    links = links.filter(function(d) {
+      var decision = true;
+      if (!currNodes.includes(d.source) || !currNodes.includes(d.target)) {
+        decision = false;
+      }
+      return decision;
+    });
+  
+    mydata.nodes = nodes;
+    mydata.links = links;
+    mydata.attribute_groups = originalData_attribute_groups;
+  }
+  
 
 function updateViews() {
 
