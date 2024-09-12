@@ -60,11 +60,9 @@ Gallery.prototype.updateVis = function() {
     			    })
             .on('mouseover', function (d) {
                 d3.select("#g-item"+d.number).style('border-style', 'solid').style('border-width', 'thin').style('border-color','grey');
-                hoverOnSimilarityEffects(d);
             })
             .on('mouseout', function (d) {
                 d3.select("#g-item"+d.number).style('border-style', 'none');
-                resetHoverSimilarityEffects();
             })
             .on('click', function(d){
               // console.log(vis.attrConfig)

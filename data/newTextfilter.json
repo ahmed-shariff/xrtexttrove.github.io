@@ -327,7 +327,7 @@
       "display" : true
     },
     {
-      "key" : "wordsperminute",
+      "key" : "wordsPerMinute",
       "title" : "Speed(WPM)",
       "parent" : "Performance Metrics",
       "type" : "range_slider",

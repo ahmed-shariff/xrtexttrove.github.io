@@ -2,7 +2,7 @@
     {
         "id": "QwertyRing",
         "figure": "1.gif",
-        "source": "https://dl.acm.org/doi/abs/10.1145/3432204#:~:text=Users%20wear%20the%20ring%20on,on%20monitoring%20the%20hand%20motions.",
+        "source": "https://dl.acm.org/doi/10.1145/3432204",
         "title": "QwertyRing: Text Entry on Physical Surfaces Using a Ring",
         "year": "01.12.2020",
         "origin": "Academia",
@@ -21,11 +21,11 @@
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Accuracy of word predictions, time components of entering words (typing, selecting, pause), subjective ratings of speed, accuracy, fatigure, preferences",
-        "wordsperminute": 20.83,
+        "wordsPerMinute": 20.83,
         "cer": 2.92,
         "uer": 1.5,
-        "ter": 4.42
+        "ter": 4.42,
+        "othermetrics": "Accuracy of word predictions, time components of entering words (typing, selecting, pause), subjective ratings of speed, accuracy, fatigure, preferences"
     },
     {
         "id": "Surface Freehand",
@@ -49,8 +49,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Freehand",
@@ -74,11 +74,11 @@
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ), subjective performance:40",
-        "wordsperminute": 9.77,
+        "wordsPerMinute": 9.77,
         "msder": 7.57,
         "physical": 0.4643,
-        "frustration": 0.5071
+        "frustration": 0.5071,
+        "othermetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ)"
     },
     {
         "id": "Vision Pro Keyboard",
@@ -94,15 +94,15 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Hovering, Key activation",
         "visualBodyRepresentation": "full hand",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "two",
         "vrar": "both",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Tap Strap Glove",
@@ -126,8 +126,8 @@
         "vrar": "both",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": 35
+        "wordsPerMinute": 35,
+        "othermetrics": "NA"
     },
     {
         "id": "TapXR",
@@ -150,8 +150,8 @@
         "vrar": "both",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": 35
+        "wordsPerMinute": 35,
+        "othermetrics": "NA"
     },
     {
         "id": "Numbered Clusters",
@@ -175,8 +175,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Drum Keys",
@@ -200,8 +200,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Draggable Keys",
@@ -225,8 +225,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "CrowbarLimbs",
@@ -250,9 +250,9 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Borg CR10,  System usability scale (SUS)",
-        "wordsperminute": 28.37,
-        "ter": 7.33
+        "wordsPerMinute": 28.37,
+        "ter": 7.33,
+        "othermetrics": "Borg CR10,  System usability scale (SUS)"
     },
     {
         "id": "DepthText",
@@ -276,11 +276,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "social acceptability questionnaire",
-        "wordsperminute": 10.76,
+        "wordsPerMinute": 10.76,
         "cer": 5.83,
         "uer": 1.96,
-        "ter": 7.79
+        "ter": 7.79,
+        "othermetrics": "social acceptability questionnaire"
     },
     {
         "id": "Flower Text Entry",
@@ -304,12 +304,12 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "NA",
-        "wordsperminute": 17.65,
+        "wordsPerMinute": 17.65,
         "cer": 2.41,
         "uer": 0.09,
         "ter": 2.5,
-        "overalltlx": 0.30829999999999996
+        "overalltlx": 0.30829999999999996,
+        "othermetrics": "NA"
     },
     {
         "id": "Hand Gesture-Based Mode Switching for Special Character Entry",
@@ -333,14 +333,14 @@
         "vrar": "VR only",
         "phraseSet": "Randomly generated using an online password generator",
         "study": "Yes",
-        "otherMetrics": "Error rate in characters per password: 0.2",
-        "wordsperminute": 7.1,
+        "wordsPerMinute": 7.1,
         "overalltlx": 0.454,
         "mental": 0.55,
         "physical": 0.42,
         "temporal": 0.5,
         "effort": 0.55,
-        "frustration": 0.25
+        "frustration": 0.25,
+        "othermetrics": "Error rate in characters per password: 0.2"
     },
     {
         "id": "Hand-Based Probabilistic Mid-Air Text Input with Gesture Typing",
@@ -364,9 +364,9 @@
         "vrar": "both",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Perceived Speed, Accuracy and Comfort",
-        "wordsperminute": 30.6,
-        "msder": 1.59
+        "wordsPerMinute": 30.6,
+        "msder": 1.59,
+        "othermetrics": "Perceived Speed, Accuracy and Comfort"
     },
     {
         "id": "Hand-Based Probabilistic Mid-Air Text Input with Touch Typing",
@@ -390,9 +390,9 @@
         "vrar": "both",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Perceived Speed, Accuracy and Comfort",
-        "wordsperminute": 33.8,
-        "msder": 1.9
+        "wordsPerMinute": 33.8,
+        "msder": 1.9,
+        "othermetrics": "Perceived Speed, Accuracy and Comfort"
     },
     {
         "id": "DwellType",
@@ -416,11 +416,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "SSQ, UEQ",
-        "wordsperminute": 11.65,
+        "wordsPerMinute": 11.65,
         "cer": 9.030000000000001,
         "uer": 0.61,
-        "ter": 9.64
+        "ter": 9.64,
+        "othermetrics": "SSQ, UEQ"
     },
     {
         "id": "NeckType",
@@ -444,11 +444,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "SSQ, UEQ",
-        "wordsperminute": 11.18,
+        "wordsPerMinute": 11.18,
         "cer": 8.03,
         "uer": 1.01,
-        "ter": 9.04
+        "ter": 9.04,
+        "othermetrics": "SSQ, UEQ"
     },
     {
         "id": "BlinkType",
@@ -472,11 +472,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "SSQ, UEQ",
-        "wordsperminute": 13.47,
+        "wordsPerMinute": 13.47,
         "cer": 9.54,
         "uer": 0.9,
-        "ter": 10.44
+        "ter": 10.44,
+        "othermetrics": "SSQ, UEQ"
     },
     {
         "id": "No hands no keyboard",
@@ -500,8 +500,7 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Homing time, UEQ, Subjective Feedback",
-        "wordsperminute": 33.408,
+        "wordsPerMinute": 33.408,
         "er": 36.01,
         "overalltlx": 0.42083333333333334,
         "mental": 0.545,
@@ -509,7 +508,8 @@
         "temporal": 0.428,
         "performance": 0.42,
         "effort": 0.483,
-        "frustration": 0.341
+        "frustration": 0.341,
+        "othermetrics": "Homing time, UEQ"
     },
     {
         "id": "No hands virtual keyboard",
@@ -526,15 +526,14 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "None",
         "visualBodyRepresentation": "invisible",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "multiple",
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Homing time, UEQ, Subjective Feedback",
-        "wordsperminute": 32.548,
+        "wordsPerMinute": 32.548,
         "er": 28.25,
         "overalltlx": 0.41861904761904767,
         "mental": 0.5,
@@ -542,7 +541,8 @@
         "temporal": 0.456,
         "performance": 0.44,
         "effort": 0.48,
-        "frustration": 0.35
+        "frustration": 0.35,
+        "othermetrics": "Homing time, UEQ"
     },
     {
         "id": "Transparent hands virtual keyboard",
@@ -559,15 +559,14 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "None",
         "visualBodyRepresentation": "full hand",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "multiple",
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Homing time, UEQ, Subjective Feedback",
-        "wordsperminute": 33.046,
+        "wordsPerMinute": 33.046,
         "er": 20.66,
         "overalltlx": 0.3116666666666667,
         "mental": 0.34,
@@ -575,7 +574,8 @@
         "temporal": 0.37,
         "performance": 0.31,
         "effort": 0.32,
-        "frustration": 0.3
+        "frustration": 0.3,
+        "othermetrics": "Homing time, UEQ"
     },
     {
         "id": "Passthrough Keyboard",
@@ -599,8 +599,7 @@
         "vrar": "both",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Homing time, UEQ, Subjective Feedback",
-        "wordsperminute": 37.326,
+        "wordsPerMinute": 37.326,
         "er": 5.79,
         "overalltlx": 0.24083333333333334,
         "mental": 0.215,
@@ -608,7 +607,8 @@
         "temporal": 0.32,
         "performance": 0.26,
         "effort": 0.27,
-        "frustration": 0.19
+        "frustration": 0.19,
+        "othermetrics": "Homing time, UEQ"
     },
     {
         "id": "Mid-Air Gesture Typing using 3D Trajectory Decoding",
@@ -625,16 +625,16 @@
         "audioFeedback": "None",
         "visualFeedback": "Hovering",
         "visualBodyRepresentation": "cursor/pointer, full hand",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref, Enron",
         "study": "Yes",
-        "otherMetrics": "Subjective Feedback",
-        "wordsperminute": 26.52,
-        "msder": 0.62
+        "wordsPerMinute": 26.52,
+        "msder": 0.62,
+        "othermetrics": "Open Comments"
     },
     {
         "id": "FingerText",
@@ -658,9 +658,9 @@
         "vrar": "both",
         "phraseSet": "\"the and you that is in of know not they get have were are bit quick fox jumps lazy on\"",
         "study": "Yes",
-        "otherMetrics": "Comfort rating",
-        "wordsperminute": 33.1,
-        "wer": 13.45
+        "wordsPerMinute": 33.1,
+        "wer": 13.45,
+        "othermetrics": "Comfort rating"
     },
     {
         "id": "Fingersound",
@@ -684,8 +684,8 @@
         "vrar": "both",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "S-Gaze&Finger",
@@ -696,24 +696,24 @@
         "origin": "Academia",
         "inputDevice": "None",
         "keyboardBackendAlgorithmicAssitance": "None",
-        "bodyPartForInput": "Finger(s)",
+        "bodyPartForInput": "Finger(s), Gaze",
         "hapticFeedbackModality": "none",
         "hapticFeedback": "None",
         "audioFeedback": "Key activation",
         "visualFeedback": "Hovering, Key activation",
         "visualBodyRepresentation": "cursor/pointer",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref, Enron",
         "study": "Yes",
-        "otherMetrics": "hand movement (measured in m), Borg CR10 for eye fatigue and arm fatigue, preference ranking",
-        "wordsperminute": 10.66,
+        "wordsPerMinute": 10.66,
         "ter": 2.9,
         "mental": 0.4114285714285714,
-        "physical": 0.58
+        "physical": 0.58,
+        "othermetrics": "hand movement (measured in m), Borg CR10 for eye fatigue and arm fatigue, preference ranking"
     },
     {
         "id": "S-Gaze&Hand",
@@ -724,24 +724,24 @@
         "origin": "Academia",
         "inputDevice": "None",
         "keyboardBackendAlgorithmicAssitance": "None",
-        "bodyPartForInput": "Hand(s)",
+        "bodyPartForInput": "Hand(s), Gaze",
         "hapticFeedbackModality": "none",
         "hapticFeedback": "None",
         "audioFeedback": "Key activation",
         "visualFeedback": "Hovering, Key activation",
         "visualBodyRepresentation": "cursor/pointer, rays or drums",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref, Enron",
         "study": "Yes",
-        "otherMetrics": "hand movement (measured in m), Borg CR10 for eye fatigue and arm fatigue, preference ranking",
-        "wordsperminute": 9.49,
+        "wordsPerMinute": 9.49,
         "ter": 2.98,
         "mental": 0.5185714285714286,
-        "physical": 0.5185714285714286
+        "physical": 0.5185714285714286,
+        "othermetrics": "hand movement (measured in m), Borg CR10 for eye fatigue and arm fatigue, preference ranking"
     },
     {
         "id": "Handwriting Controller",
@@ -765,11 +765,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref, Enron",
         "study": "Yes",
-        "otherMetrics": "SUS questionnaire",
-        "wordsperminute": 14.5,
+        "wordsPerMinute": 14.5,
         "ter": 9.28,
         "msder": 1.05,
-        "overalltlx": 0.4011
+        "overalltlx": 0.4011,
+        "othermetrics": "SUS questionnaire"
     },
     {
         "id": "Haptic Ring Air-Writing",
@@ -793,7 +793,7 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown"
     },
     {
         "id": "HoVR-Type",
@@ -817,8 +817,8 @@
         "vrar": "both",
         "phraseSet": "Unknown",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Eyes-Away Mid-Air Typing Using Squeeze Haptics-Based Postural Reinforcement",
@@ -842,9 +842,9 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref, Enron",
         "study": "Yes",
-        "otherMetrics": "collisions per character: 1.95\n% time spent looking\nat keyboard: 45%-55%",
-        "wordsperminute": 13.3,
-        "msder": 2.3
+        "wordsPerMinute": 13.3,
+        "msder": 2.3,
+        "othermetrics": "typing micro-metrics, subjective ratings of confidence, physical demand and mental demand, and gaze behavioral metrics"
     },
     {
         "id": "Mid-Air Typing with Audio Visual Feedback",
@@ -868,11 +868,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Micro metrics such as press duration, finger travel, finger-key collisions, and finger usage",
-        "wordsperminute": 20.75,
+        "wordsPerMinute": 20.75,
         "cer": 1.2,
         "uer": 15.1,
-        "ter": 16.3
+        "ter": 16.3,
+        "othermetrics": "Micro metrics such as press duration, finger travel, finger-key collisions, and finger usage"
     },
     {
         "id": "Mid-Air Typing with On-Finger Feedback",
@@ -896,11 +896,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Micro metrics such as press duration, finger travel, finger-key collisions, and finger usage",
-        "wordsperminute": 22.5,
+        "wordsPerMinute": 22.5,
         "cer": 1.15,
         "uer": 12,
-        "ter": 13.15
+        "ter": 13.15,
+        "othermetrics": "Micro metrics such as press duration, finger travel, finger-key collisions, and finger usage"
     },
     {
         "id": "Mid-Air Typing with On-Wrist Spatial Feedback",
@@ -924,11 +924,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Micro metrics such as press duration, finger travel, finger-key collisions, and finger usage",
-        "wordsperminute": 22,
+        "wordsPerMinute": 22,
         "cer": 0.9,
         "uer": 14,
-        "ter": 14.9
+        "ter": 14.9,
+        "othermetrics": "Micro metrics such as press duration, finger travel, finger-key collisions, and finger usage"
     },
     {
         "id": "Mid-Air Typing with On-Wrist Nonspatial Feedback",
@@ -952,11 +952,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Micro metrics such as press duration, finger travel, finger-key collisions, and finger usage",
-        "wordsperminute": 22.25,
+        "wordsPerMinute": 22.25,
         "cer": 1,
         "uer": 12.4,
-        "ter": 13.4
+        "ter": 13.4,
+        "othermetrics": "Micro metrics such as press duration, finger travel, finger-key collisions, and finger usage"
     },
     {
         "id": "Lenstouch",
@@ -980,8 +980,8 @@
         "vrar": "AR only",
         "phraseSet": "Unknown",
         "study": "Yes",
-        "otherMetrics": "~30% error on touch actions",
-        "wordsperminute": 5.54
+        "wordsPerMinute": 5.54,
+        "othermetrics": "~30% error on touch actions"
     },
     {
         "id": "Middle Pinch QWERTY",
@@ -1005,8 +1005,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Mini QWERTY",
@@ -1030,8 +1030,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Morse Code",
@@ -1055,8 +1055,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Nodesk VR",
@@ -1080,8 +1080,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "PalmGesture",
@@ -1105,8 +1105,8 @@
         "vrar": "AR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "PalmType",
@@ -1123,23 +1123,23 @@
         "audioFeedback": "None",
         "visualFeedback": "Other",
         "visualBodyRepresentation": "full hand",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "passthrough",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "level of comfort, learnability, efficiency, accuracy, absence of frustration, mental, physical demands, and overall preference using 1-10 scales",
-        "wordsperminute": 10.5,
+        "wordsPerMinute": 10.5,
         "cer": 1.74,
         "uer": 1.58,
-        "ter": 3.3200000000000003
+        "ter": 3.3200000000000003,
+        "othermetrics": "level of comfort, learnability, efficiency, accuracy, absence of frustration, mental, physical demands, and overall preference using 1-10 scales"
     },
     {
         "id": "On surface, 10 finger",
         "figure": "43.gif",
-        "source": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/d2827770-97d6-4c96-828b-af7ce804a70b/content",
+        "source": "https://ieeexplore.ieee.org/document/8943750",
         "title": "Performance Envelopes of Virtual Keyboard Text Input Strategies in",
         "year": "14.10.2019",
         "origin": "Industry",
@@ -1158,13 +1158,13 @@
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "Touch Accuracy, Distribution of Touch Errors, Inter-key interval, Fingertip Trajectory, Press Duration, Press Depth, Press Reversal, Hand and Finger Usage",
-        "wordsperminute": 51.6
+        "wordsPerMinute": 51.6,
+        "othermetrics": "Touch Accuracy, Distribution of Touch Errors, Inter-key interval, Fingertip Trajectory, Press Duration, Press Depth, Press Reversal, Hand and Finger Usage"
     },
     {
         "id": "Mid air, 10 finger",
         "figure": "44.gif",
-        "source": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/d2827770-97d6-4c96-828b-af7ce804a70b/content",
+        "source": "https://ieeexplore.ieee.org/document/8943750",
         "title": "Performance Envelopes of Virtual Keyboard Text Input Strategies in",
         "year": "14.10.2019",
         "origin": "Industry",
@@ -1183,13 +1183,13 @@
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "Touch Accuracy, Distribution of Touch Errors, Inter-key interval, Fingertip Trajectory, Press Duration, Press Depth, Press Reversal, Hand and Finger Usage",
-        "wordsperminute": 34.5
+        "wordsPerMinute": 34.5,
+        "othermetrics": "Touch Accuracy, Distribution of Touch Errors, Inter-key interval, Fingertip Trajectory, Press Duration, Press Depth, Press Reversal, Hand and Finger Usage"
     },
     {
         "id": "Mid air, index fingers",
         "figure": "45.gif",
-        "source": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/d2827770-97d6-4c96-828b-af7ce804a70b/content",
+        "source": "https://ieeexplore.ieee.org/document/8943750",
         "title": "Performance Envelopes of Virtual Keyboard Text Input Strategies in",
         "year": "14.10.2019",
         "origin": "Industry",
@@ -1208,13 +1208,13 @@
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "Touch Accuracy, Distribution of Touch Errors, Inter-key interval, Fingertip Trajectory, Press Duration, Press Depth, Press Reversal, Hand and Finger Usage",
-        "wordsperminute": 42.1
+        "wordsPerMinute": 42.1,
+        "othermetrics": "Touch Accuracy, Distribution of Touch Errors, Inter-key interval, Fingertip Trajectory, Press Duration, Press Depth, Press Reversal, Hand and Finger Usage"
     },
     {
         "id": "On surface, index fingers",
         "figure": "46.gif",
-        "source": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/d2827770-97d6-4c96-828b-af7ce804a70b/content",
+        "source": "https://ieeexplore.ieee.org/document/8943750",
         "title": "Performance Envelopes of Virtual Keyboard Text Input Strategies in",
         "year": "14.10.2019",
         "origin": "Industry",
@@ -1233,13 +1233,13 @@
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "Touch Accuracy, Distribution of Touch Errors, Inter-key interval, Fingertip Trajectory, Press Duration, Press Depth, Press Reversal, Hand and Finger Usage",
-        "wordsperminute": 55.6
+        "wordsPerMinute": 55.6,
+        "othermetrics": "Touch Accuracy, Distribution of Touch Errors, Inter-key interval, Fingertip Trajectory, Press Duration, Press Depth, Press Reversal, Hand and Finger Usage"
     },
     {
         "id": "Mid-air gesture keyboard using multi-objective Bayesian optimization",
         "figure": "47.gif",
-        "source": "https://pokristensson.com/pubs/ShenEtAlISMAR2022.pdf",
+        "source": "https://ieeexplore.ieee.org/document/9994904",
         "title": "Personalization of a Mid-Air Gesture Keyboard using Multi-Objective",
         "year": "17.10.2022",
         "origin": "Academia",
@@ -1251,15 +1251,15 @@
         "audioFeedback": "None",
         "visualFeedback": "Hovering",
         "visualBodyRepresentation": "full hand",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "Enron mobile dataset, MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "PizzaText",
@@ -1283,12 +1283,12 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "results from expert and novice users",
-        "wordsperminute": 8.59,
+        "wordsPerMinute": 8.59,
         "cer": 5.68,
         "uer": 2.08,
         "ter": 7.76,
-        "overalltlx": 0.3985
+        "overalltlx": 0.3985,
+        "othermetrics": "results from expert and novice users"
     },
     {
         "id": "Controller+Swype",
@@ -1305,18 +1305,24 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Hovering,  Other(Swipe)",
         "visualBodyRepresentation": "rays or drums",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "SUS, UEQ, MASQ",
-        "wordsperminute": 13.68,
+        "wordsPerMinute": 13.68,
         "cer": 1.24,
         "uer": 0,
-        "ter": 1.24
+        "ter": 1.24,
+        "overalltlx": 0.34263803680981597,
+        "mental": 0.36349693251533743,
+        "physical": 0.4233128834355828,
+        "temporal": 0.31901840490797545,
+        "effort": 0.3236196319018405,
+        "frustration": 0.2837423312883436,
+        "othermetrics": "Motion Sickness Assessment Questionnaire (MSAQ), Slater-Usoh-Steed Questionnaire (SUS), and User Experience Questionnaire (UEQ)"
     },
     {
         "id": "Head+Swype",
@@ -1333,18 +1339,24 @@
         "audioFeedback": "None",
         "visualFeedback": "Hovering, Key activation",
         "visualBodyRepresentation": "cursor/pointer",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "SUS, UEQ, MASQ",
-        "wordsperminute": 7.94,
+        "wordsPerMinute": 7.94,
         "cer": 0.5,
         "uer": 0.5,
-        "ter": 1
+        "ter": 1,
+        "overalltlx": 0.5760736196319018,
+        "mental": 0.5076687116564417,
+        "physical": 0.6656441717791411,
+        "temporal": 0.5460122699386503,
+        "effort": 0.6395705521472392,
+        "frustration": 0.5214723926380368,
+        "othermetrics": "Motion Sickness Assessment Questionnaire (MSAQ), Slater-Usoh-Steed Questionnaire (SUS), and User Experience Questionnaire (UEQ)"
     },
     {
         "id": "Hybrid+Swype",
@@ -1361,19 +1373,24 @@
         "audioFeedback": "None",
         "visualFeedback": "Hovering",
         "visualBodyRepresentation": "cursor/pointer, full hand",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "SUS, UEQ, MASQ",
-        "wordsperminute": 10,
+        "wordsPerMinute": 10,
         "cer": 3.75,
         "uer": 0.75,
         "ter": 4.5,
-        "wer": 0.7519
+        "overalltlx": 0.710122699386503,
+        "mental": 0.6288343558282209,
+        "physical": 0.8665644171779141,
+        "temporal": 0.6441717791411042,
+        "effort": 0.7269938650306749,
+        "frustration": 0.6840490797546013,
+        "othermetrics": "Motion Sickness Assessment Questionnaire (MSAQ), Slater-Usoh-Steed Questionnaire (SUS), and User Experience Questionnaire (UEQ)"
     },
     {
         "id": "Hand+Swype",
@@ -1390,18 +1407,24 @@
         "audioFeedback": "None",
         "visualFeedback": "Hovering",
         "visualBodyRepresentation": "cursor/pointer, full hand",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "SUS, UEQ, MASQ",
-        "wordsperminute": 9,
+        "wordsPerMinute": 9,
         "cer": 4.26,
         "uer": 0.75,
-        "ter": 5.01
+        "ter": 5.01,
+        "overalltlx": 0.6739263803680983,
+        "mental": 0.48466257668711654,
+        "physical": 0.8282208588957055,
+        "temporal": 0.5874233128834356,
+        "effort": 0.7852760736196319,
+        "frustration": 0.6840490797546013,
+        "othermetrics": "Motion Sickness Assessment Questionnaire (MSAQ), Slater-Usoh-Steed Questionnaire (SUS), and User Experience Questionnaire (UEQ)"
     },
     {
         "id": "Controller + Tap",
@@ -1425,12 +1448,17 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "SUS, UEQ, MASQ",
-        "wordsperminute": 14.6,
+        "wordsPerMinute": 14.6,
         "cer": 0.75,
         "uer": 1.75,
         "ter": 2.5,
-        "wer": 0.3392
+        "overalltlx": 0.27791411042944786,
+        "mental": 0.23006134969325154,
+        "physical": 0.3067484662576687,
+        "temporal": 0.2684049079754601,
+        "effort": 0.3220858895705521,
+        "frustration": 0.26226993865030673,
+        "othermetrics": "Motion Sickness Assessment Questionnaire (MSAQ), Slater-Usoh-Steed Questionnaire (SUS), and User Experience Questionnaire (UEQ)"
     },
     {
         "id": "Head +Tap",
@@ -1447,18 +1475,24 @@
         "audioFeedback": "None",
         "visualFeedback": "Key activation",
         "visualBodyRepresentation": "cursor/pointer",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "SUS, UEQ, MASQ",
-        "wordsperminute": 5.62,
+        "wordsPerMinute": 5.62,
         "cer": 0.5800000000000001,
         "uer": 0.48,
-        "ter": 1.06
+        "ter": 1.06,
+        "overalltlx": 0.46993865030674853,
+        "mental": 0.4371165644171779,
+        "physical": 0.6871165644171779,
+        "temporal": 0.3006134969325153,
+        "effort": 0.549079754601227,
+        "frustration": 0.37576687116564417,
+        "othermetrics": "Motion Sickness Assessment Questionnaire (MSAQ), Slater-Usoh-Steed Questionnaire (SUS), and User Experience Questionnaire (UEQ)"
     },
     {
         "id": "Hybrid+Tap",
@@ -1475,18 +1509,24 @@
         "audioFeedback": "None",
         "visualFeedback": "Key activation",
         "visualBodyRepresentation": "cursor/pointer, full hand",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "SUS, UEQ, MASQ",
-        "wordsperminute": 8,
+        "wordsPerMinute": 8,
         "cer": 1.25,
         "uer": 1.25,
-        "ter": 2.5
+        "ter": 2.5,
+        "overalltlx": 0.39509202453987724,
+        "mental": 0.30828220858895705,
+        "physical": 0.6180981595092024,
+        "temporal": 0.31901840490797545,
+        "effort": 0.4616564417177914,
+        "frustration": 0.2684049079754601,
+        "othermetrics": "Motion Sickness Assessment Questionnaire (MSAQ), Slater-Usoh-Steed Questionnaire (SUS), and User Experience Questionnaire (UEQ)"
     },
     {
         "id": "Hand+Tap",
@@ -1503,18 +1543,24 @@
         "audioFeedback": "None",
         "visualFeedback": "None",
         "visualBodyRepresentation": "cursor/pointer, full hand",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "SUS, UEQ, MASQ",
-        "wordsperminute": 7,
+        "wordsPerMinute": 7,
         "cer": 2.6600000000000006,
         "uer": 3.82,
-        "ter": 6.48
+        "ter": 6.48,
+        "overalltlx": 0.48711656441717793,
+        "mental": 0.4156441717791411,
+        "physical": 0.6595092024539877,
+        "temporal": 0.4340490797546012,
+        "effort": 0.5306748466257669,
+        "frustration": 0.39570552147239263,
+        "othermetrics": "Motion Sickness Assessment Questionnaire (MSAQ), Slater-Usoh-Steed Questionnaire (SUS), and User Experience Questionnaire (UEQ)"
     },
     {
         "id": "Punchkeyboard",
@@ -1533,13 +1579,13 @@
         "visualBodyRepresentation": "controllers",
         "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
-        "canBeMobile": "On the go",
+        "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "two",
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unkown"
+        "wordsPerMinute": "Unkown",
+        "othermetrics": "NA"
     },
     {
         "id": "FullShuffle",
@@ -1556,16 +1602,16 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Hovering, Key activation",
         "visualBodyRepresentation": "fingertips",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "other",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "multiple",
         "vrar": "VR only",
         "phraseSet": "half of the passwords were popular simple passwords and the other half was split equally to five and 10 character length randomized passwords",
         "study": "Yes",
-        "otherMetrics": "perceived security, seven-item Likert scales for questions\non ease of use (”I found the application easy to use”), utility (”I found\nthe application to be useful”) and enjoyment (”I had fun interacting\nwith the application”), open comments",
-        "wordsperminute": 3.82,
-        "msder": 3.4
+        "wordsPerMinute": 3.82,
+        "msder": 3.4,
+        "othermetrics": "perceived security, seven-item Likert scales for questions\non ease of use (”I found the application easy to use”), utility (”I found\nthe application to be useful”) and enjoyment (”I had fun interacting\nwith the application”), open comments"
     },
     {
         "id": "RowShuffle",
@@ -1582,16 +1628,16 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Hovering, Key activation",
         "visualBodyRepresentation": "fingertips",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "other",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "multiple",
         "vrar": "VR only",
         "phraseSet": "half of the passwords were popular simple passwords and the other half was split equally to five and 10 character length randomized passwords",
         "study": "Yes",
-        "otherMetrics": "perceived security, seven-item Likert scales for questions\non ease of use (”I found the application easy to use”), utility (”I found\nthe application to be useful”) and enjoyment (”I had fun interacting\nwith the application”), open comments",
-        "wordsperminute": 6.03,
-        "msder": 3.4
+        "wordsPerMinute": 6.03,
+        "msder": 3.4,
+        "othermetrics": "perceived security, seven-item Likert scales for questions\non ease of use (”I found the application easy to use”), utility (”I found\nthe application to be useful”) and enjoyment (”I had fun interacting\nwith the application”), open comments"
     },
     {
         "id": "RegionShuffle",
@@ -1608,16 +1654,16 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Hovering, Key activation",
         "visualBodyRepresentation": "fingertips",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "other",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "multiple",
         "vrar": "VR only",
         "phraseSet": "half of the passwords were popular simple passwords and the other half was split equally to five and 10 character length randomized passwords",
         "study": "Yes",
-        "otherMetrics": "perceived security, seven-item Likert scales for questions\non ease of use (”I found the application easy to use”), utility (”I found\nthe application to be useful”) and enjoyment (”I had fun interacting\nwith the application”), open comments",
-        "wordsperminute": 6.57,
-        "msder": 3.7
+        "wordsPerMinute": 6.57,
+        "msder": 3.7,
+        "othermetrics": "perceived security, seven-item Likert scales for questions\non ease of use (”I found the application easy to use”), utility (”I found\nthe application to be useful”) and enjoyment (”I had fun interacting\nwith the application”), open comments"
     },
     {
         "id": "RingText",
@@ -1641,10 +1687,11 @@
         "vrar": "both",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "wordsperminute": 13.24,
+        "wordsPerMinute": 13.24,
         "cer": 0.45999999999999996,
         "uer": 2.44,
-        "ter": 2.9
+        "ter": 2.9,
+        "othermetrics": "simulator sickness questionnaire (SSQ) with additional neck fatigue questions"
     },
     {
         "id": "RotoSwype Hand up",
@@ -1668,7 +1715,7 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "wordsperminute": 14.4,
+        "wordsPerMinute": 14.4,
         "cer": 12.9,
         "uer": 1.1,
         "ter": 14,
@@ -1676,7 +1723,8 @@
         "physical": 0.42857142857142855,
         "performance": 0.2857142857142857,
         "effort": 0.42857142857142855,
-        "frustration": 0.42857142857142855
+        "frustration": 0.42857142857142855,
+        "othermetrics": "Open comments"
     },
     {
         "id": "RotoSwype Hand down",
@@ -1700,7 +1748,7 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "wordsperminute": 14.8,
+        "wordsPerMinute": 14.8,
         "cer": 8.9,
         "uer": 0.5,
         "ter": 9.4,
@@ -1708,7 +1756,8 @@
         "physical": 0.42857142857142855,
         "performance": 0.5714285714285714,
         "effort": 0.5714285714285714,
-        "frustration": 0.42857142857142855
+        "frustration": 0.42857142857142855,
+        "othermetrics": "Open comments"
     },
     {
         "id": "STAR: Smartphone-Analogous Typing in Augmented Reality",
@@ -1732,11 +1781,11 @@
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Keypress duration: 132 ms, interkey interval: 585 ms, Subjective feedback",
-        "wordsperminute": 21.9,
+        "wordsPerMinute": 21.9,
         "cer": 8.8,
         "uer": 0.3,
-        "ter": 9.100000000000001
+        "ter": 9.100000000000001,
+        "othermetrics": "Keypress duration, interkey interval, backspace usage"
     },
     {
         "id": "SciFi Keys",
@@ -1760,8 +1809,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Shadowtouch",
@@ -1785,8 +1834,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "Subjective rating scales",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "Subset of SUS"
     },
     {
         "id": "Shadowtouch - draw",
@@ -1803,15 +1852,15 @@
         "audioFeedback": "None",
         "visualFeedback": "Key activation",
         "visualBodyRepresentation": "full hand",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "none",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "multiple",
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "Subjective rating scales",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "Subset of SUS"
     },
     {
         "id": "Split Keyboard",
@@ -1828,15 +1877,15 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Hovering",
         "visualBodyRepresentation": "controllers",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "two",
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "TapGazer",
@@ -1860,10 +1909,10 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "SUS, Subjective feedback",
-        "wordsperminute": 44.81,
+        "wordsPerMinute": 44.81,
         "ter": 2.13,
-        "overalltlx": 0.48469999999999996
+        "overalltlx": 0.48469999999999996,
+        "othermetrics": "SUS, Subjective feedback"
     },
     {
         "id": "Tapgazer Thigh",
@@ -1887,9 +1936,9 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "SUS, Subjective feedback",
-        "wordsperminute": 45.26,
-        "ter": 4.03
+        "wordsPerMinute": 45.26,
+        "ter": 4.03,
+        "othermetrics": "SUS, Subjective feedback"
     },
     {
         "id": "TapID",
@@ -1913,8 +1962,8 @@
         "vrar": "both",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "TapType Mixed Reality",
@@ -1938,9 +1987,9 @@
         "vrar": "both",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Qualitative feedback",
-        "wordsperminute": 19.2,
-        "msder": 0.6
+        "wordsPerMinute": 19.2,
+        "msder": 0.6,
+        "othermetrics": "Qualitative feedback"
     },
     {
         "id": "Speech and a Midair Keyboard",
@@ -1964,9 +2013,9 @@
         "vrar": "VR only",
         "phraseSet": "TwitterIV and TwitterOOV",
         "study": "Yes",
-        "otherMetrics": "2.11 Borg CR10",
-        "wordsperminute": 27.9,
-        "msder": 0.5
+        "wordsPerMinute": 27.9,
+        "msder": 0.5,
+        "othermetrics": "2.11 Borg CR10"
     },
     {
         "id": "Tap Keyboard Controller VR",
@@ -1983,15 +2032,14 @@
         "audioFeedback": "None",
         "visualFeedback": "Key activation",
         "visualBodyRepresentation": "invisible",
-        "visualKeyboardRepresentation": "virtual overlay, virtual keyboard",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTZ",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "two",
         "vrar": "VR only",
         "phraseSet": "German translation of MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "SUS, UEQ, SSQ (simulator sickness)",
-        "wordsperminute": 19.46,
+        "wordsPerMinute": 19.46,
         "er": 0.55,
         "overalltlx": 0.29991666666666666,
         "mental": 0.3054,
@@ -1999,7 +2047,8 @@
         "temporal": 0.3594,
         "performance": 0.2897,
         "effort": 0.3443,
-        "frustration": 0.2208
+        "frustration": 0.2208,
+        "othermetrics": "SUS, UEQ, SSQ (simulator sickness)"
     },
     {
         "id": "Tap Keyboard Controller AR",
@@ -2016,14 +2065,14 @@
         "audioFeedback": "None",
         "visualFeedback": "Key activation",
         "visualBodyRepresentation": "invisible",
-        "visualKeyboardRepresentation": "virtual overlay, virtual keyboard",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTZ",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "two",
         "vrar": "AR only",
         "phraseSet": "German translation of MacKenzie and Soukoref",
-        "otherMetrics": "SUS, UEQ, SSQ (simulator sickness)",
-        "wordsperminute": 16.1,
+        "study": "Yes",
+        "wordsPerMinute": 16.1,
         "er": 0.62,
         "overalltlx": 0.255,
         "mental": 0.263,
@@ -2031,7 +2080,8 @@
         "temporal": 0.28,
         "performance": 0.295,
         "effort": 0.295,
-        "frustration": 0.155
+        "frustration": 0.155,
+        "othermetrics": "SUS, UEQ, SSQ (simulator sickness)"
     },
     {
         "id": "TipText",
@@ -2055,10 +2105,11 @@
         "vrar": "both",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "wordsperminute": 13.3,
+        "wordsPerMinute": 13.3,
         "cer": 4.59,
         "uer": 0.3,
-        "ter": 4.89
+        "ter": 4.89,
+        "othermetrics": "Auto-Complete Rate"
     },
     {
         "id": "Touch-sensitive Physical Keyboard",
@@ -2082,9 +2133,9 @@
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "SSQ simulator questionnaire, IPQ spatial presence questionnaire and the Flow-Short-Scale, interview feedback",
-        "wordsperminute": 33.2,
-        "msder": 1.1
+        "wordsPerMinute": 33.2,
+        "msder": 1.1,
+        "othermetrics": "SSQ simulator questionnaire, IPQ spatial presence questionnaire and the Flow-Short-Scale, interview feedback"
     },
     {
         "id": "Touch-sensitive Physical Keyboard",
@@ -2101,15 +2152,14 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Hovering",
         "visualBodyRepresentation": "invisible",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "multiple",
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "SSQ simulator questionnaire, IPQ spatial presence questionnaire and the Flow-Short-Scale, interview feedback",
-        "wordsperminute": 42.8,
+        "wordsPerMinute": 42.8,
         "msder": 0.9,
         "overalltlx": 0.37650000000000006,
         "mental": 0.43,
@@ -2117,7 +2167,8 @@
         "temporal": 0.35200000000000004,
         "performance": 0.385,
         "effort": 0.423,
-        "frustration": 0.365
+        "frustration": 0.365,
+        "othermetrics": "SSQ simulator questionnaire, IPQ spatial presence questionnaire and the Flow-Short-Scale, interview feedback"
     },
     {
         "id": "Passthrough keyboard with highlighting",
@@ -2141,13 +2192,13 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "DRG",
         "figure": "80.gif",
-        "source": "https://dl.acm.org/doi/pdf/10.1145/3569463?casa_token=8aRyTBGWn2sAAAAA:LbEof-rNK1UuJWWZSV-e4hOWW-Fjl5e5hfUp8all3bk-NVbqodrPIVCiUVNPbOpD3WHdPfpOjXgU9w",
+        "source": "https://dl.acm.org/doi/10.1145/3569463",
         "title": "DRG-Keyboard: Enabling Subtle Gesture Typing on the Fingertip with Dual IMU Rings",
         "year": "11.01.2023",
         "origin": "Academia",
@@ -2166,11 +2217,11 @@
         "vrar": "both",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Subjective feedback",
-        "wordsperminute": 16.2,
+        "wordsPerMinute": 16.2,
         "cer": 0.40000000000000036,
         "uer": 5.1,
-        "ter": 5.5
+        "ter": 5.5,
+        "othermetrics": "Subjective feedback, statistics of non typing actions such as deletion, selection"
     },
     {
         "id": "Coactivation Mitigated Mid-Air Typing ",
@@ -2194,8 +2245,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Vertical QWERTY",
@@ -2219,8 +2270,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Controller Pointing",
@@ -2244,12 +2295,12 @@
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ), subjective performance:40",
-        "wordsperminute": 15.44,
+        "wordsPerMinute": 15.44,
         "msder": 0.97,
         "overalltlx": 0.3848,
         "physical": 0.3786,
-        "frustration": 0.391
+        "frustration": 0.391,
+        "othermetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ)"
     },
     {
         "id": "Controller Tapping",
@@ -2273,11 +2324,11 @@
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ), subjective performance:40",
-        "wordsperminute": 12.69,
+        "wordsPerMinute": 12.69,
         "msder": 1.94,
         "physical": 0.509,
-        "frustration": 0.4286
+        "frustration": 0.4286,
+        "othermetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ)"
     },
     {
         "id": "Hand Representations No Hand",
@@ -2294,17 +2345,17 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Key activation",
         "visualBodyRepresentation": "invisible",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "multiple",
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "SSQ, IPQ, Flow Short Scale, Time to First Keypress, Open Comments",
-        "wordsperminute": 36.1,
+        "wordsPerMinute": 36.1,
         "msder": 15.2,
-        "overalltlx": 0.579
+        "overalltlx": 0.579,
+        "othermetrics": "SSQ, IPQ, Flow Short Scale, Time to First Keypress, Open Comments"
     },
     {
         "id": "Hand Representations IK Hand",
@@ -2321,17 +2372,17 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Key activation",
         "visualBodyRepresentation": "full hand",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "multiple",
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "SSQ, IPQ, Flow Short Scale, Time to First Keypress, Open Comments",
-        "wordsperminute": 34.4,
+        "wordsPerMinute": 34.4,
         "msder": 11.5,
-        "overalltlx": 0.512
+        "overalltlx": 0.512,
+        "othermetrics": "SSQ, IPQ, Flow Short Scale, Time to First Keypress, Open Comments"
     },
     {
         "id": "Hand Representations FingerTips",
@@ -2348,17 +2399,17 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Key activation",
         "visualBodyRepresentation": "fingertips",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "multiple",
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "SSQ, IPQ, Flow Short Scale, Time to First Keypress, Open Comments",
-        "wordsperminute": 36.4,
+        "wordsPerMinute": 36.4,
         "msder": 6.3,
-        "overalltlx": 0.475
+        "overalltlx": 0.475,
+        "othermetrics": "SSQ, IPQ, Flow Short Scale, Time to First Keypress, Open Comments"
     },
     {
         "id": "Hand Representations Video Hand",
@@ -2382,10 +2433,10 @@
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "SSQ, IPQ, Flow Short Scale, Time to First Keypress, Open Comments",
-        "wordsperminute": 38.7,
+        "wordsPerMinute": 38.7,
         "msder": 5.1,
-        "overalltlx": 0.43799999999999994
+        "overalltlx": 0.43799999999999994,
+        "othermetrics": "SSQ, IPQ, Flow Short Scale, Time to First Keypress, Open Comments"
     },
     {
         "id": "Head Pointing",
@@ -2409,11 +2460,11 @@
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ), subjective performance:40",
-        "wordsperminute": 10.2,
+        "wordsPerMinute": 10.2,
         "msder": 1.15,
         "physical": 0.4143,
-        "frustration": 0.4107
+        "frustration": 0.4107,
+        "othermetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ), subjective performance:40"
     },
     {
         "id": "iText - Etype",
@@ -2437,8 +2488,7 @@
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "eye fatigue",
-        "wordsperminute": 13.76,
+        "wordsPerMinute": 13.76,
         "wer": 1.5,
         "overalltlx": 0.5523809523809524,
         "mental": 0.6,
@@ -2446,7 +2496,8 @@
         "temporal": 0.5,
         "performance": 0.5285714285714286,
         "effort": 0.6,
-        "frustration": 0.4571428571428572
+        "frustration": 0.4571428571428572,
+        "othermetrics": "eye fatigue, a short version of User\nExperience Questionnaire (UEQ-S), LEARNING RATE"
     },
     {
         "id": "PinchType",
@@ -2470,11 +2521,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Perfect word speed (not considering time used for correcting errors), user comfort",
-        "wordsperminute": 12.54,
+        "wordsPerMinute": 12.54,
         "cer": 19.7,
         "uer": 2,
-        "ter": 21.7
+        "ter": 21.7,
+        "othermetrics": "Perfect word speed (not considering time used for correcting errors), user comfort THROUGH SIBJECTIVE FEEDBACK"
     },
     {
         "id": "Drum-Like VR Keyboard",
@@ -2498,11 +2549,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "SUS, GEQ",
-        "wordsperminute": 24.61,
+        "wordsPerMinute": 24.61,
         "cer": 7,
         "uer": 0.2,
-        "ter": 7.2
+        "ter": 7.2,
+        "othermetrics": "System Usability Scale (SUS), Game Experience Questionnaire (GEQ)"
     },
     {
         "id": "Drum-Like VR Keyboard with Prediction",
@@ -2526,8 +2577,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Fingerpull",
@@ -2551,8 +2602,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "vSpatial",
@@ -2576,8 +2627,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Freehand typing in mid air (ATK)",
@@ -2601,9 +2652,9 @@
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Number of other actions performed by users, qualitative feedback",
-        "wordsperminute": 29.2,
-        "wer": 0.4
+        "wordsPerMinute": 29.2,
+        "wer": 0.4,
+        "othermetrics": "Number of other actions performed by users, qualitative feedback"
     },
     {
         "id": "Surface Touch Typing",
@@ -2620,16 +2671,16 @@
         "audioFeedback": "None",
         "visualFeedback": "None",
         "visualBodyRepresentation": "full hand",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "multiple",
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "NA",
-        "wordsperminute": 73,
-        "msder": 2.28
+        "wordsPerMinute": 73,
+        "msder": 2.28,
+        "othermetrics": "NA"
     },
     {
         "id": "DigiTap",
@@ -2653,13 +2704,13 @@
         "vrar": "both",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": 10
+        "wordsPerMinute": 10,
+        "othermetrics": "NA"
     },
     {
         "id": "Facetouch",
         "figure": "99.gif",
-        "source": "https://dl.acm.org/doi/abs/10.1145/2984511.2984576?casa_token=WzY92XC0faUAAAAA:N48dxjcJ10A5n9T4lGDS2tRGsh1uKmsz2SM0x4_F43L-x_TfYJus_4fV4wysKcXZwO5rLpGoQz4",
+        "source": "https://dl.acm.org/doi/10.1145/2851581.2890242",
         "title": "FaceTouch: Touch Interaction for Mobile Virtual Reality",
         "year": "16.10.2016",
         "origin": "Academia",
@@ -2671,15 +2722,15 @@
         "audioFeedback": "None",
         "visualFeedback": "Hovering",
         "visualBodyRepresentation": "invisible",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "multiple",
         "vrar": "VR only",
         "phraseSet": "Unknown",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": 10
+        "wordsPerMinute": 10,
+        "othermetrics": "NA"
     },
     {
         "id": "Flick typing",
@@ -2703,12 +2754,12 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "SUS",
-        "wordsperminute": 9.77,
+        "wordsPerMinute": 9.77,
         "cer": 7.73,
         "uer": 3.32,
         "ter": 11.05,
-        "overalltlx": 0.3542
+        "overalltlx": 0.3542,
+        "othermetrics": "SUS"
     },
     {
         "id": "ForceBoard",
@@ -2732,11 +2783,11 @@
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Character Level Speed: 4.42, 5 point Likert scale: Mental demand:2.90, Frustration: 2.54, Physical demand: 2.73, Interaction Style: 4.0",
-        "wordsperminute": 12.8,
+        "wordsPerMinute": 12.8,
         "cer": 1.8,
         "uer": 0.47,
-        "ter": 2.27
+        "ter": 2.27,
+        "othermetrics": "Character Level Speed, Custom scale ---4.42, 5 point Likert scale: Mental demand:2.90, Frustration: 2.54, Physical demand: 2.73, Interaction Style: 4.0, Feelings of Success"
     },
     {
         "id": "GAT",
@@ -2753,18 +2804,18 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Hovering, Key activation",
         "visualBodyRepresentation": "cursor/pointer",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "other",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Easy to learn, Easy to use, Prefer to use, Eye feels natural, Eye Fatigue",
-        "wordsperminute": 11.04,
+        "wordsPerMinute": 11.04,
         "cer": 6.22,
         "uer": 0.7,
-        "ter": 6.92
+        "ter": 6.92,
+        "othermetrics": "Custom scale -- Easy to learn, Easy to use, Prefer to use, Eye feels natural, Eye Fatigue"
     },
     {
         "id": "H4VR flat keyboard",
@@ -2788,9 +2839,9 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Hand Fatigue and Preference",
-        "wordsperminute": 4.57,
-        "er": 1.82
+        "wordsPerMinute": 4.57,
+        "er": 1.82,
+        "othermetrics": "Custom scale -- Hand Fatigue and Preference"
     },
     {
         "id": "H4VR cross keyboard",
@@ -2814,9 +2865,9 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Hand Fatigue and Preference",
-        "wordsperminute": 3.63,
-        "er": 0.79
+        "wordsPerMinute": 3.63,
+        "er": 0.79,
+        "othermetrics": "Custom scale -- Hand Fatigue and Preference"
     },
     {
         "id": "Handwriting Velcro",
@@ -2840,11 +2891,11 @@
         "vrar": "AR only",
         "phraseSet": "Unknown",
         "study": "Yes",
-        "otherMetrics": "User Preference",
-        "wordsperminute": 12.3,
+        "wordsPerMinute": 12.3,
         "cer": 0.005,
         "uer": 0,
-        "ter": 0.005
+        "ter": 0.005,
+        "othermetrics": "User Preference"
     },
     {
         "id": "HeadCross",
@@ -2868,8 +2919,8 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Speed: HeadCross (AVG=1.36s, STD=0.07s)",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "Speed: HeadCross (AVG=1.36s, STD=0.07s), Participantsrated for the experience in the aspects of fatigue, mental effort, learning effort, perceived speed, and perceivedaccuracy. "
     },
     {
         "id": "HiKeyb",
@@ -2893,8 +2944,8 @@
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Time to first keypress: 2.58, SSQ: 25.13",
-        "wordsperminute": 23.1
+        "wordsPerMinute": 23.1,
+        "othermetrics": "Time to first keypress: 2.58, SSQ: 25.13"
     },
     {
         "id": "Continous Cursor",
@@ -2918,11 +2969,11 @@
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ), subjective performance:40",
-        "wordsperminute": 8.35,
+        "wordsPerMinute": 8.35,
         "msder": 2.15,
         "physical": 0.28809999999999997,
-        "frustration": 0.5738
+        "frustration": 0.5738,
+        "othermetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ), subjective performance:40"
     },
     {
         "id": "Discrete Cursor",
@@ -2946,12 +2997,12 @@
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ), subjective performance:40",
-        "wordsperminute": 5.31,
+        "wordsPerMinute": 5.31,
         "msder": 2.79,
         "overalltlx": 0.5267000000000001,
         "physical": 0.3071,
-        "frustration": 0.6214
+        "frustration": 0.6214,
+        "othermetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ), subjective performance:40"
     },
     {
         "id": "HMK",
@@ -2975,8 +3026,8 @@
         "vrar": "both",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "NA",
-        "wordsperminute": 34.7
+        "wordsPerMinute": 34.7,
+        "othermetrics": "Interview feedback"
     },
     {
         "id": "Punch Typing",
@@ -3000,8 +3051,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Shapeshifter Flat Surface",
@@ -3025,8 +3076,8 @@
         "vrar": "both",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "NA",
-        "wordsperminute": 11
+        "wordsPerMinute": 11,
+        "othermetrics": "Interview feedback"
     },
     {
         "id": "Shapeshifter Lap",
@@ -3050,8 +3101,8 @@
         "vrar": "both",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "NA",
-        "wordsperminute": 9
+        "wordsPerMinute": 9,
+        "othermetrics": "Interview feedback"
     },
     {
         "id": "Shapeshifter Palm",
@@ -3075,8 +3126,8 @@
         "vrar": "both",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "NA",
-        "wordsperminute": 8
+        "wordsPerMinute": 8,
+        "othermetrics": "Interview feedback"
     },
     {
         "id": "STAT",
@@ -3100,11 +3151,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "NA",
-        "wordsperminute": 12.49,
+        "wordsPerMinute": 12.49,
         "cer": 0.0325,
         "uer": 0.4,
-        "ter": 0.4325
+        "ter": 0.4325,
+        "othermetrics": "Prefferences"
     },
     {
         "id": "ThumbAir",
@@ -3128,8 +3179,7 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Borg CR10:\nShoulder 1.08 \nArm 0.83 \nForearm 0.75 \nWrist 0.83 \nHand 2.04 ",
-        "wordsperminute": 13.73,
+        "wordsPerMinute": 13.73,
         "cer": 10.1,
         "msder": 1.15,
         "overalltlx": 0.4723333333333333,
@@ -3138,7 +3188,8 @@
         "temporal": 0.417,
         "performance": 0.642,
         "effort": 0.742,
-        "frustration": 0.442
+        "frustration": 0.442,
+        "othermetrics": "Borg CR10:\nShoulder 1.08 \nArm 0.83 \nForearm 0.75 \nWrist 0.83 \nHand 2.04,  questionnaire for social acceptability. open comments"
     },
     {
         "id": "Tilt-Type",
@@ -3162,9 +3213,9 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Angular Travel:1.5E3, Percent Ideal Travel: 4.0E3",
-        "wordsperminute": 5.3,
-        "msder": 8.6
+        "wordsPerMinute": 5.3,
+        "msder": 8.6,
+        "othermetrics": "Angular Travel:1.5E3, Percent Ideal Travel: 4.0E3, positioning metrics"
     },
     {
         "id": "Arc-Type",
@@ -3188,9 +3239,9 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Angular Travel:8.6E3, Percent Ideal Travel: 9.6E2",
-        "wordsperminute": 2.8,
-        "msder": 23
+        "wordsPerMinute": 2.8,
+        "msder": 23,
+        "othermetrics": "Angular Travel:8.6E3, Percent Ideal Travel: 9.6E2, positioning metrics"
     },
     {
         "id": "Spatial Keypad with Eye and Hand Tracking",
@@ -3209,13 +3260,13 @@
         "visualBodyRepresentation": "full hand",
         "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "other",
-        "canBeMobile": "On the go",
+        "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "both",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Two-Handed-VR-Typing-Method",
@@ -3234,13 +3285,13 @@
         "visualBodyRepresentation": "invisible",
         "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "other",
-        "canBeMobile": "On the go",
+        "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "two",
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Spatial Keypad with Eye Tracking",
@@ -3264,8 +3315,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "radial Sector Input",
@@ -3282,21 +3333,22 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Key activation",
         "visualBodyRepresentation": "controllers",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "Alphabetical, radial",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "VR only",
         "phraseSet": "Eight German sentences that are at least five words long, six randomly generated strings that are six characters long",
         "study": "Yes",
-        "wordsperminute": 4.8,
+        "wordsPerMinute": 4.8,
         "overalltlx": 0.375,
         "mental": 0.465,
         "physical": 0.28,
         "temporal": 0.435,
         "performance": 0.28,
         "effort": 0.49,
-        "frustration": 0.3
+        "frustration": 0.3,
+        "othermetrics": "UEQ, subjective prefference"
     },
     {
         "id": "T9VR radial Input",
@@ -3313,21 +3365,22 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Key activation",
         "visualBodyRepresentation": "controllers",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "Alphabetical, radial",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "VR only",
         "phraseSet": "Eight German sentences that are at least five words long, six randomly generated strings that are six characters long",
         "study": "Yes",
-        "wordsperminute": 5.45,
+        "wordsPerMinute": 5.45,
         "overalltlx": 0.34249999999999997,
         "mental": 0.35,
         "physical": 0.22,
         "temporal": 0.405,
         "performance": 0.345,
         "effort": 0.465,
-        "frustration": 0.27
+        "frustration": 0.27,
+        "othermetrics": "UEQ, subjective prefference"
     },
     {
         "id": "HawKEY None",
@@ -3351,10 +3404,10 @@
         "vrar": "VR only",
         "phraseSet": "Custom",
         "study": "Yes",
-        "otherMetrics": "time to first character, first character correctness (%), KeystrokesperCharacter(KSPC), Erroneous Keystroke Error Rate (EKS ER) \nSubjective one: Ease of Use, Comfortability, Perceived Typing Speed, Preference",
-        "wordsperminute": 28.6,
+        "wordsPerMinute": 28.6,
         "ter": 18.2,
-        "overalltlx": 0.553
+        "overalltlx": 0.553,
+        "othermetrics": "time to first character, first character correctness (%), KeystrokesperCharacter(KSPC), Erroneous Keystroke Error Rate (EKS ER) \nSubjective one: Ease of Use, Comfortability, Perceived Typing Speed, Preference"
     },
     {
         "id": "HawKEY Frame",
@@ -3378,10 +3431,10 @@
         "vrar": "VR only",
         "phraseSet": "Custom",
         "study": "Yes",
-        "otherMetrics": "time to first character, first character correctness (%), KeystrokesperCharacter(KSPC), Erroneous Keystroke Error Rate (EKS ER) \nSubjective one: Ease of Use, Comfortability, Perceived Typing Speed, Preference",
-        "wordsperminute": 26,
+        "wordsPerMinute": 26,
         "ter": 19.4,
-        "overalltlx": 0.56
+        "overalltlx": 0.56,
+        "othermetrics": "time to first character, first character correctness (%), KeystrokesperCharacter(KSPC), Erroneous Keystroke Error Rate (EKS ER) \nSubjective one: Ease of Use, Comfortability, Perceived Typing Speed, Preference"
     },
     {
         "id": "HawKEY Model",
@@ -3405,10 +3458,10 @@
         "vrar": "VR only",
         "phraseSet": "Custom",
         "study": "Yes",
-        "otherMetrics": "time to first character, first character correctness (%), KeystrokesperCharacter(KSPC), Erroneous Keystroke Error Rate (EKS ER) \nSubjective one: Ease of Use, Comfortability, Perceived Typing Speed, Preference",
-        "wordsperminute": 25.3,
+        "wordsPerMinute": 25.3,
         "ter": 16.6,
-        "overalltlx": 0.6
+        "overalltlx": 0.6,
+        "othermetrics": "time to first character, first character correctness (%), KeystrokesperCharacter(KSPC), Erroneous Keystroke Error Rate (EKS ER) \nSubjective one: Ease of Use, Comfortability, Perceived Typing Speed, Preference"
     },
     {
         "id": "HawKEY Video",
@@ -3432,10 +3485,10 @@
         "vrar": "both",
         "phraseSet": "Custom",
         "study": "Yes",
-        "otherMetrics": "time to first character, first character correctness (%), KeystrokesperCharacter(KSPC), Erroneous Keystroke Error Rate (EKS ER) \nSubjective one: Ease of Use, Comfortability, Perceived Typing Speed, Preference",
-        "wordsperminute": 30.6,
+        "wordsPerMinute": 30.6,
         "ter": 10.2,
-        "overalltlx": 0.476
+        "overalltlx": 0.476,
+        "othermetrics": "time to first character, first character correctness (%), KeystrokesperCharacter(KSPC), Erroneous Keystroke Error Rate (EKS ER) \nSubjective one: Ease of Use, Comfortability, Perceived Typing Speed, Preference"
     },
     {
         "id": "HawKEY Pointcloud",
@@ -3459,10 +3512,10 @@
         "vrar": "both",
         "phraseSet": "Custom",
         "study": "Yes",
-        "otherMetrics": "time to first character, first character correctness (%), KeystrokesperCharacter(KSPC), Erroneous Keystroke Error Rate (EKS ER) \nSubjective one: Ease of Use, Comfortability, Perceived Typing Speed, Preference",
-        "wordsperminute": 30,
+        "wordsPerMinute": 30,
         "ter": 10.2,
-        "overalltlx": 0.494
+        "overalltlx": 0.494,
+        "othermetrics": "time to first character, first character correctness (%), KeystrokesperCharacter(KSPC), Erroneous Keystroke Error Rate (EKS ER) \nSubjective one: Ease of Use, Comfortability, Perceived Typing Speed, Preference"
     },
     {
         "id": "OST HMD Smartphone Text Entry",
@@ -3477,7 +3530,7 @@
         "hapticFeedbackModality": "external surface",
         "hapticFeedback": "Key activation",
         "audioFeedback": "None",
-        "visualFeedback": "Unknown",
+        "visualFeedback": "None",
         "visualBodyRepresentation": "full hand",
         "visualKeyboardRepresentation": "passthrough",
         "keyboardLayout": "QWERTY",
@@ -3486,8 +3539,9 @@
         "vrar": "AR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "wordsperminute": 20.57,
-        "msder": 0.021
+        "wordsPerMinute": 20.57,
+        "msder": 0.021,
+        "othermetrics": "Simulator Sickness Questionnaire (SSQ) [81] and the FlowShort-Scale questionnaire (FSS), prefferences and open comments"
     },
     {
         "id": "AR Smartphone Text Entry",
@@ -3502,7 +3556,7 @@
         "hapticFeedbackModality": "external surface",
         "hapticFeedback": "Key activation",
         "audioFeedback": "None",
-        "visualFeedback": "Unknown",
+        "visualFeedback": "None",
         "visualBodyRepresentation": "full hand",
         "visualKeyboardRepresentation": "passthrough",
         "keyboardLayout": "QWERTY",
@@ -3511,8 +3565,9 @@
         "vrar": "AR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "wordsperminute": 17.95,
-        "msder": 0.097
+        "wordsPerMinute": 17.95,
+        "msder": 0.097,
+        "othermetrics": "Simulator Sickness Questionnaire (SSQ) [81] and the FlowShort-Scale questionnaire (FSS), prefferences and open comments"
     },
     {
         "id": "Realistic Hands Physical Keyboard",
@@ -3527,7 +3582,7 @@
         "hapticFeedbackModality": "button press",
         "hapticFeedback": "Hovering, Key activation",
         "audioFeedback": "Key activation",
-        "visualFeedback": "Key activation",
+        "visualFeedback": "None",
         "visualBodyRepresentation": "full hand",
         "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTY",
@@ -3536,11 +3591,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Presence Questionnaire (PQ)",
-        "wordsperminute": 37.581,
+        "wordsPerMinute": 37.581,
         "cer": 7.681,
         "msder": 1.14,
-        "overalltlx": 0.5499999999999999
+        "overalltlx": 0.5499999999999999,
+        "othermetrics": "Presence Questionnaire (PQ), thetime (in s) a user needed for the ﬁrst correct keyboard input"
     },
     {
         "id": "Realistic Hands Physical Keyboard Transparency",
@@ -3555,7 +3610,7 @@
         "hapticFeedbackModality": "button press",
         "hapticFeedback": "Hovering, Key activation",
         "audioFeedback": "Key activation",
-        "visualFeedback": "Key activation",
+        "visualFeedback": "None",
         "visualBodyRepresentation": "full hand",
         "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTY",
@@ -3564,11 +3619,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Presence Questionnaire (PQ)",
-        "wordsperminute": 38.43,
+        "wordsPerMinute": 38.43,
         "cer": 7.712,
         "msder": 1.001,
-        "overalltlx": 0.5499999999999999
+        "overalltlx": 0.5499999999999999,
+        "othermetrics": "Presence Questionnaire (PQ), thetime (in s) a user needed for the ﬁrst correct keyboard input"
     },
     {
         "id": "Abstract Hands Physical Keyboard ",
@@ -3583,7 +3638,7 @@
         "hapticFeedbackModality": "button press",
         "hapticFeedback": "Hovering, Key activation",
         "audioFeedback": "Key activation",
-        "visualFeedback": "Key activation",
+        "visualFeedback": "None",
         "visualBodyRepresentation": "bones",
         "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTY",
@@ -3592,11 +3647,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Presence Questionnaire (PQ)",
-        "wordsperminute": 38.809,
+        "wordsPerMinute": 38.809,
         "cer": 7.726,
         "msder": 1.003,
-        "overalltlx": 0.5499999999999999
+        "overalltlx": 0.5499999999999999,
+        "othermetrics": "Presence Questionnaire (PQ), thetime (in s) a user needed for the ﬁrst correct keyboard input"
     },
     {
         "id": "Abstract Hands Physical Keyboard Transparency",
@@ -3611,7 +3666,7 @@
         "hapticFeedbackModality": "button press",
         "hapticFeedback": "Hovering, Key activation",
         "audioFeedback": "Key activation",
-        "visualFeedback": "Key activation",
+        "visualFeedback": "None",
         "visualBodyRepresentation": "bones",
         "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTY",
@@ -3620,11 +3675,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Presence Questionnaire (PQ)",
-        "wordsperminute": 39.808,
+        "wordsPerMinute": 39.808,
         "cer": 7.749,
         "msder": 1.121,
-        "overalltlx": 0.5916666666666667
+        "overalltlx": 0.5916666666666667,
+        "othermetrics": "Presence Questionnaire (PQ), thetime (in s) a user needed for the ﬁrst correct keyboard input"
     },
     {
         "id": "Fingertips Physical Keyboard ",
@@ -3639,7 +3694,7 @@
         "hapticFeedbackModality": "button press",
         "hapticFeedback": "Hovering, Key activation",
         "audioFeedback": "Key activation",
-        "visualFeedback": "Key activation",
+        "visualFeedback": "None",
         "visualBodyRepresentation": "fingertips",
         "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTY",
@@ -3648,11 +3703,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Presence Questionnaire (PQ)",
-        "wordsperminute": 36.189,
+        "wordsPerMinute": 36.189,
         "cer": 9.486,
         "msder": 1.244,
-        "overalltlx": 0.6
+        "overalltlx": 0.6,
+        "othermetrics": "Presence Questionnaire (PQ), thetime (in s) a user needed for the ﬁrst correct keyboard input"
     },
     {
         "id": "Fingertips Physical Keyboard Transparency",
@@ -3667,7 +3722,7 @@
         "hapticFeedbackModality": "button press",
         "hapticFeedback": "Hovering, Key activation",
         "audioFeedback": "Key activation",
-        "visualFeedback": "Key activation",
+        "visualFeedback": "None",
         "visualBodyRepresentation": "fingertips",
         "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTY",
@@ -3676,11 +3731,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Presence Questionnaire (PQ)",
-        "wordsperminute": 37.648,
+        "wordsPerMinute": 37.648,
         "cer": 7.683,
         "msder": 1.304,
-        "overalltlx": 0.5750000000000001
+        "overalltlx": 0.5750000000000001,
+        "othermetrics": "Presence Questionnaire (PQ), thetime (in s) a user needed for the ﬁrst correct keyboard input"
     },
     {
         "id": "Real Hands Physical Keyboard",
@@ -3704,11 +3759,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Presence Questionnaire (PQ)",
-        "wordsperminute": 37.581,
+        "wordsPerMinute": 37.581,
         "cer": 4.904,
         "msder": 0.713,
-        "overalltlx": 0.625
+        "overalltlx": 0.625,
+        "othermetrics": "Presence Questionnaire (PQ), thetime (in s) a user needed for the ﬁrst correct keyboard input"
     },
     {
         "id": "No Hands Physical Keyboard",
@@ -3723,7 +3778,7 @@
         "hapticFeedbackModality": "button press",
         "hapticFeedback": "Hovering, Key activation",
         "audioFeedback": "Key activation",
-        "visualFeedback": "Key activation",
+        "visualFeedback": "None",
         "visualBodyRepresentation": "invisible",
         "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTY",
@@ -3732,11 +3787,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Presence Questionnaire (PQ)",
-        "wordsperminute": 31.848,
+        "wordsPerMinute": 31.848,
         "cer": 14.015,
         "msder": 0.74,
-        "overalltlx": 0.7999999999999999
+        "overalltlx": 0.7999999999999999,
+        "othermetrics": "Presence Questionnaire (PQ), thetime (in s) a user needed for the ﬁrst correct keyboard input"
     },
     {
         "id": "No keyboard view and wearing an HMD",
@@ -3750,8 +3805,8 @@
         "bodyPartForInput": "Finger(s)",
         "hapticFeedbackModality": "button press",
         "hapticFeedback": "Hovering, Key activation",
-        "audioFeedback": "None",
-        "visualFeedback": "Key activation",
+        "audioFeedback": "Key activation",
+        "visualFeedback": "None",
         "visualBodyRepresentation": "invisible",
         "visualKeyboardRepresentation": "none",
         "keyboardLayout": "QWERTY",
@@ -3760,11 +3815,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Duration To First Key , First Key Accuracy",
-        "wordsperminute": 23.6,
+        "wordsPerMinute": 23.6,
         "cer": 30.26,
         "uer": 0.61,
-        "ter": 30.87
+        "ter": 30.87,
+        "othermetrics": "Duration To First Key , First Key Accuracy"
     },
     {
         "id": "Partial Blending",
@@ -3778,8 +3833,8 @@
         "bodyPartForInput": "Finger(s)",
         "hapticFeedbackModality": "button press",
         "hapticFeedback": "Hovering, Key activation",
-        "audioFeedback": "None",
-        "visualFeedback": "Key activation",
+        "audioFeedback": "Key activation",
+        "visualFeedback": "None",
         "visualBodyRepresentation": "full hand",
         "visualKeyboardRepresentation": "passthrough",
         "keyboardLayout": "QWERTY",
@@ -3788,11 +3843,11 @@
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Duration To First Key , First Key Accuracy",
-        "wordsperminute": 38.5,
+        "wordsPerMinute": 38.5,
         "cer": 8.13,
         "uer": 1.07,
-        "ter": 9.200000000000001
+        "ter": 9.200000000000001,
+        "othermetrics": "Duration To First Key , First Key Accuracy"
     },
     {
         "id": "Full Blending",
@@ -3806,8 +3861,8 @@
         "bodyPartForInput": "Finger(s)",
         "hapticFeedbackModality": "button press",
         "hapticFeedback": "Hovering, Key activation",
-        "audioFeedback": "None",
-        "visualFeedback": "Key activation",
+        "audioFeedback": "Key activation",
+        "visualFeedback": "None",
         "visualBodyRepresentation": "full hand",
         "visualKeyboardRepresentation": "passthrough",
         "keyboardLayout": "QWERTY",
@@ -3816,11 +3871,11 @@
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Duration To First Key , First Key Accuracy",
-        "wordsperminute": 36.6,
+        "wordsPerMinute": 36.6,
         "cer": 8.63,
         "uer": 1.78,
-        "ter": 10.41
+        "ter": 10.41,
+        "othermetrics": "Duration To First Key , First Key Accuracy"
     },
     {
         "id": "HMD+No Keyboard",
@@ -3844,7 +3899,7 @@
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "wordsperminute": 41.2,
+        "wordsPerMinute": 41.2,
         "msder": 4
     },
     {
@@ -3859,7 +3914,7 @@
         "bodyPartForInput": "Finger(s)",
         "hapticFeedbackModality": "button press",
         "hapticFeedback": "Hovering, Key activation",
-        "audioFeedback": "None",
+        "audioFeedback": "Key activation",
         "visualFeedback": "Key activation",
         "visualBodyRepresentation": "invisible",
         "visualKeyboardRepresentation": "virtual keyboard",
@@ -3869,7 +3924,7 @@
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "wordsperminute": 43.7,
+        "wordsPerMinute": 43.7,
         "msder": 2.6
     },
     {
@@ -3887,16 +3942,16 @@
         "audioFeedback": "None",
         "visualFeedback": "Key activation",
         "visualBodyRepresentation": "rays or drums",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "VR only",
         "phraseSet": "Unknown",
         "study": "Yes",
-        "otherMetrics": "Efficiency: 91.84",
-        "wordsperminute": 21.42,
-        "msder": 2.3
+        "wordsPerMinute": 21.42,
+        "msder": 2.3,
+        "othermetrics": "KSPC"
     },
     {
         "id": "Smartphone as a controller",
@@ -3920,9 +3975,9 @@
         "vrar": "VR only",
         "phraseSet": "Unknown",
         "study": "Yes",
-        "otherMetrics": "Efficiency: 93.30",
-        "wordsperminute": 12.1,
-        "msder": 1.12
+        "wordsPerMinute": 12.1,
+        "msder": 1.12,
+        "othermetrics": "KSPC"
     },
     {
         "id": "Gamepad",
@@ -3946,9 +4001,9 @@
         "vrar": "VR only",
         "phraseSet": "Unknown",
         "study": "Yes",
-        "otherMetrics": "Efficiency: 97.89",
-        "wordsperminute": 8.98,
-        "msder": 1.9
+        "wordsPerMinute": 8.98,
+        "msder": 1.9,
+        "othermetrics": "KSPC"
     },
     {
         "id": "Capacitive-sensing Physical Keyboard",
@@ -3972,8 +4027,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "Gaze and commit keyboard",
@@ -3990,15 +4045,14 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Hovering, Key activation",
         "visualBodyRepresentation": "full hand",
-        "visualKeyboardRepresentation": "passthrough",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTZ",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "German phrase set from Franco-Salvador and Leiva, 2018",
         "study": "Yes",
-        "otherMetrics": "SUS: 66.91, Free form feedback",
-        "wordsperminute": 11.67,
+        "wordsPerMinute": 11.67,
         "cer": 6.08,
         "uer": 0,
         "ter": 6.08,
@@ -4008,7 +4062,8 @@
         "temporal": 0.5074000000000001,
         "performance": 0.43700000000000006,
         "effort": 0.5667,
-        "frustration": 0.49439999999999995
+        "frustration": 0.49439999999999995,
+        "othermetrics": "subjective keyboard performance [12], perceived\nenjoyment of the Technology Acceptance Model 3 [47], the raw\nNASA task load index [17, 18], the System Usability Scale [6], and\nfor general feedback in open texts"
     },
     {
         "id": "Dwell keyboard",
@@ -4025,15 +4080,14 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Hovering, Key activation",
         "visualBodyRepresentation": "invisible",
-        "visualKeyboardRepresentation": "passthrough",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTZ",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "German phrase set from Franco-Salvador and Leiva, 2019",
         "study": "Yes",
-        "otherMetrics": "SUS: 75.62, Free form feedback",
-        "wordsperminute": 10.98,
+        "wordsPerMinute": 10.98,
         "cer": 4.45,
         "uer": 0,
         "ter": 4.45,
@@ -4043,7 +4097,8 @@
         "temporal": 0.5463,
         "performance": 0.3759,
         "effort": 0.5481,
-        "frustration": 0.413
+        "frustration": 0.413,
+        "othermetrics": "subjective keyboard performance [12], perceived\nenjoyment of the Technology Acceptance Model 3 [47], the raw\nNASA task load index [17, 18], the System Usability Scale [6], and\nfor general feedback in open texts"
     },
     {
         "id": "Tap Keyboard",
@@ -4060,15 +4115,14 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Key activation",
         "visualBodyRepresentation": "full hand",
-        "visualKeyboardRepresentation": "passthrough",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTZ",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "German phrase set from Franco-Salvador and Leiva, 2020",
         "study": "Yes",
-        "otherMetrics": "SUS: 73.83, Free form feedback",
-        "wordsperminute": 15.27,
+        "wordsPerMinute": 15.27,
         "cer": 2.02,
         "uer": 0,
         "ter": 2.02,
@@ -4078,7 +4132,8 @@
         "temporal": 0.5556,
         "performance": 0.3759,
         "effort": 0.5241,
-        "frustration": 0.3259
+        "frustration": 0.3259,
+        "othermetrics": "subjective keyboard performance [12], perceived\nenjoyment of the Technology Acceptance Model 3 [47], the raw\nNASA task load index [17, 18], the System Usability Scale [6], and\nfor general feedback in open texts"
     },
     {
         "id": "Brittlestylus",
@@ -4102,9 +4157,10 @@
         "vrar": "VR only",
         "phraseSet": "Unknown",
         "study": "Yes",
-        "wordsperminute": 11.7,
+        "wordsPerMinute": 11.7,
         "msder": 1.92,
-        "overalltlx": 0.375
+        "overalltlx": 0.375,
+        "othermetrics": "error numbers of substitution, insertion, and omission; penetration depth; penetration number which was the number of finger-keyboard penetration; open comments"
     },
     {
         "id": "Wordsphere",
@@ -4128,8 +4184,8 @@
         "vrar": "VR only",
         "phraseSet": "ten short sentences generated randomly",
         "study": "Yes",
-        "otherMetrics": "NA",
-        "wordsperminute": 24.46
+        "wordsPerMinute": 24.46,
+        "othermetrics": "NA"
     },
     {
         "id": "VR keyboard with Realistic Haptic Feedback",
@@ -4153,8 +4209,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "subjective ratings of Comfort, Intuitive, Real-time, Convenient, Smooth, Willing, Realistic",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "subjective ratings of Comfort, Intuitive, Real-time, Convenient, Smooth, Willingness to us, Realistic"
     },
     {
         "id": "radial Controller",
@@ -4178,8 +4234,8 @@
         "vrar": "VR only",
         "phraseSet": "NA",
         "study": "No",
-        "otherMetrics": "NA",
-        "wordsperminute": "Unknown"
+        "wordsPerMinute": "Unknown",
+        "othermetrics": "NA"
     },
     {
         "id": "DesktopKeyboard+NoReposition",
@@ -4196,17 +4252,17 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Key activation",
         "visualBodyRepresentation": "fingertips",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTZ",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "multiple",
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "Nausea: 1.5, time to first keypress, spatial presence, head motions, prefference rankings",
-        "wordsperminute": 26.3,
+        "wordsPerMinute": 26.3,
         "msder": 2.1,
-        "overalltlx": 0.5583
+        "overalltlx": 0.5583,
+        "othermetrics": "SSQ, IPQ, time to first keypress, spatial presence, head motions, prefference rankings, open comments"
     },
     {
         "id": "DesktopKeyboard+Reposition",
@@ -4230,10 +4286,10 @@
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "Nausea: 2, time to first keypress, spatial presence, head motions, prefference rankings",
-        "wordsperminute": 25.5,
+        "wordsPerMinute": 25.5,
         "msder": 2.4,
-        "overalltlx": 0.5333
+        "overalltlx": 0.5333,
+        "othermetrics": "SSQ, IPQ, time to first keypress, spatial presence, head motions, prefference rankings, open comments"
     },
     {
         "id": "TouchscreenKeyboard+NoReposition",
@@ -4250,17 +4306,17 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Hovering, Key activation",
         "visualBodyRepresentation": "fingertips",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "QWERTZ",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "multiple",
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "Nausea: 3, time to first keypress, spatial presence, head motions, prefference rankings",
-        "wordsperminute": 11.6,
+        "wordsPerMinute": 11.6,
         "msder": 2.7,
-        "overalltlx": 0.6
+        "overalltlx": 0.6,
+        "othermetrics": "SSQ, IPQ, time to first keypress, spatial presence, head motions, prefference rankings, open comments"
     },
     {
         "id": "TouchscreenKeyboard+Reposition",
@@ -4284,10 +4340,10 @@
         "vrar": "VR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "Nausea: 3, time to first keypress, spatial presence, head motions, prefference rankings",
-        "wordsperminute": 8.8,
+        "wordsPerMinute": 8.8,
         "msder": 3.6,
-        "overalltlx": 0.6167
+        "overalltlx": 0.6167,
+        "othermetrics": "SSQ, IPQ, time to first keypress, spatial presence, head motions, prefference rankings, open comments"
     },
     {
         "id": "HiPad with VE-layout",
@@ -4311,8 +4367,7 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Preference score: 4.5 for 6 keys",
-        "wordsperminute": 13.57,
+        "wordsPerMinute": 13.57,
         "cer": 4.720000000000001,
         "uer": 0.22,
         "ter": 4.94,
@@ -4322,7 +4377,8 @@
         "temporal": 0.34714285714285714,
         "performance": 0.6128571428571429,
         "effort": 0.40857142857142853,
-        "frustration": 0.26571428571428574
+        "frustration": 0.26571428571428574,
+        "othermetrics": "Preference score: 4.5 for 6 keys"
     },
     {
         "id": "HiPad with TP-layout",
@@ -4339,14 +4395,14 @@
         "audioFeedback": "Key activation",
         "visualFeedback": "Hovering, Key activation",
         "visualBodyRepresentation": "controllers",
-        "visualKeyboardRepresentation": "virtual keyboard",
+        "visualKeyboardRepresentation": "virtual overlay",
         "keyboardLayout": "radial",
         "canBeMobile": "Stationary",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "wordsperminute": 11.6,
+        "wordsPerMinute": 11.6,
         "cer": 8.969999999999999,
         "uer": 0.3,
         "ter": 9.27,
@@ -4356,7 +4412,8 @@
         "temporal": 0.30428571428571427,
         "performance": 0.7142857142857143,
         "effort": 0.5714285714285714,
-        "frustration": 0.4114285714285714
+        "frustration": 0.4114285714285714,
+        "othermetrics": "Preference score: 4.5 for 6 keys"
     },
     {
         "id": "DigiTouch Gloves",
@@ -4380,10 +4437,11 @@
         "vrar": "both",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "wordsperminute": 16,
+        "wordsPerMinute": 16,
         "cer": 15.8,
         "uer": 0.85,
-        "ter": 16.650000000000002
+        "ter": 16.650000000000002,
+        "othermetrics": "Input Stream Analysis"
     },
     {
         "id": "1D Handwriting",
@@ -4407,7 +4465,7 @@
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "wordsperminute": 9.72,
+        "wordsPerMinute": 9.72,
         "cer": 17.38,
         "uer": 0.25,
         "ter": 17.63
@@ -4434,7 +4492,8 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "wordsperminute": 9.36
+        "wordsPerMinute": 9.36,
+        "othermetrics": "Rate of Backspace Activation (RBA)., head movements, interview"
     },
     {
         "id": "Gaze + Click",
@@ -4458,7 +4517,8 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "wordsperminute": 10.15
+        "wordsPerMinute": 10.15,
+        "othermetrics": "Rate of Backspace Activation (RBA)., head movements, interview"
     },
     {
         "id": "BiTipText",
@@ -4482,10 +4542,11 @@
         "vrar": "both",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "wordsperminute": 23.4,
+        "wordsPerMinute": 23.4,
         "cer": 2.0900000000000003,
         "uer": 0.03,
-        "ter": 2.12
+        "ter": 2.12,
+        "othermetrics": "Auto-Complete Rate"
     },
     {
         "id": "VISAR",
@@ -4502,16 +4563,16 @@
         "audioFeedback": "None",
         "visualFeedback": "Hovering, Key activation",
         "visualBodyRepresentation": "full hand",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "Enron mobile dataset",
         "study": "Yes",
-        "otherMetrics": "Inter-key timing, Minor revision entry rate (wpm), SUS, custom questionnaire about the technique being (1) quick, (2) accurate, (3) comfortable, (4) useful",
-        "wordsperminute": 17.75,
-        "msder": 0.63
+        "wordsPerMinute": 17.75,
+        "msder": 0.63,
+        "othermetrics": "Inter-key timing, Minor revision entry rate (wpm), SUS, custom questionnaire about the technique being (1) quick, (2) accurate, (3) comfortable, (4) useful"
     },
     {
         "id": "Vulture",
@@ -4535,8 +4596,8 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoreff",
         "study": "Yes",
-        "otherMetrics": "metrics related to gesture (eg gesture recall, length)",
-        "wordsperminute": 28.1
+        "wordsPerMinute": 28.1,
+        "othermetrics": "metrics related to gesture (eg gesture recall, length)"
     },
     {
         "id": "FASTTYPE",
@@ -4560,7 +4621,7 @@
         "vrar": "VR only",
         "phraseSet": "Enron Email Dataset",
         "study": "Yes",
-        "wordsperminute": 22,
+        "wordsPerMinute": 22,
         "msder": 2.3
     },
     {
@@ -4585,11 +4646,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "subjective ratings of Speed, Accuracy, Distance, Fatigue, Learnability, Preference",
-        "wordsperminute": 15.58,
+        "wordsPerMinute": 15.58,
         "cer": 1.45,
         "uer": 0.57,
-        "ter": 2.02
+        "ter": 2.02,
+        "othermetrics": "word-level actions: Default, Select and Delete: interview; subjective ratings of Speed, Accuracy, Distance, Fatigue, Learnability, Preference"
     },
     {
         "id": "DwellType",
@@ -4613,11 +4674,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "subjective ratings of Speed, Accuracy, Distance, Fatigue, Learnability, Preference",
-        "wordsperminute": 10.59,
+        "wordsPerMinute": 10.59,
         "cer": 1.23,
         "uer": 2.46,
-        "ter": 3.69
+        "ter": 3.69,
+        "othermetrics": "word-level actions: Default, Select and Delete: interview; subjective ratings of Speed, Accuracy, Distance, Fatigue, Learnability, Preference"
     },
     {
         "id": "GestureType",
@@ -4641,11 +4702,11 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "subjective ratings of Speed, Accuracy, Distance, Fatigue, Learnability, Preference",
-        "wordsperminute": 24.73,
+        "wordsPerMinute": 24.73,
         "cer": 3.86,
         "uer": 1.96,
-        "ter": 5.82
+        "ter": 5.82,
+        "othermetrics": "word-level actions: Default, Select and Delete: interview; subjective ratings of Speed, Accuracy, Distance, Fatigue, Learnability, Preference"
     },
     {
         "id": "MyoKey Freehand",
@@ -4662,16 +4723,16 @@
         "audioFeedback": "None",
         "visualFeedback": "Hovering",
         "visualBodyRepresentation": "full hand",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Word-Level Error Rate",
-        "wordsperminute": 9.86,
-        "msder": 3.75
+        "wordsPerMinute": 9.86,
+        "msder": 3.75,
+        "othermetrics": "Word-Level Error Rate"
     },
     {
         "id": "MyoKey Tripod Grasp",
@@ -4688,16 +4749,16 @@
         "audioFeedback": "None",
         "visualFeedback": "Hovering",
         "visualBodyRepresentation": "full hand",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Word-Level Error Rate",
-        "wordsperminute": 9.11,
-        "msder": 8.75
+        "wordsPerMinute": 9.11,
+        "msder": 8.75,
+        "othermetrics": "Word-Level Error Rate"
     },
     {
         "id": "MyoKey Cylindrical Grasp",
@@ -4714,16 +4775,16 @@
         "audioFeedback": "None",
         "visualFeedback": "Hovering",
         "visualBodyRepresentation": "full hand",
-        "visualKeyboardRepresentation": "virtual overlay",
+        "visualKeyboardRepresentation": "virtual keyboard",
         "keyboardLayout": "QWERTY",
         "canBeMobile": "On the go",
         "concurrencyNumberOfPossibleInputPoints": "one",
         "vrar": "AR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Word-Level Error Rate",
-        "wordsperminute": 8.69,
-        "msder": 8.125
+        "wordsPerMinute": 8.69,
+        "msder": 8.125,
+        "othermetrics": "Word-Level Error Rate"
     },
     {
         "id": "PinchText (UpV) ",
@@ -4747,8 +4808,8 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Subjective feedback",
-        "wordsperminute": 8.13
+        "wordsPerMinute": 8.13,
+        "othermetrics": "Likert-scale questionnaire including perceived entry speed,perceived accuracy, hand fatigue, and overall preference, hand position tracking data"
     },
     {
         "id": "PinchText (DownVV) ",
@@ -4772,7 +4833,7 @@
         "vrar": "VR only",
         "phraseSet": "MacKenzie and Soukoref",
         "study": "Yes",
-        "otherMetrics": "Subjective feedback",
-        "wordsperminute": 6.1
+        "wordsPerMinute": 6.1,
+        "othermetrics": "Likert-scale questionnaire including perceived entry speed,perceived accuracy, hand fatigue, and overall preference, hand position tracking data"
     }
 ]
