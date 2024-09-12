@@ -1,6 +1,6 @@
 //variables and default settings
- var originalData_nodes, originalData_links, originalData_attribute_groups, mydata,defaultAttrConfig, similarityCriteria;
- var galleryVis, similarityVis, fM, formM;
+ var originalData_nodes, originalData_links, originalData_attribute_groups, mydata,defaultAttrConfig;
+ var galleryVis, fM, formM;
  var defaultConfig = {};
 // read data
  Promise.all([
@@ -13,9 +13,6 @@
 	]).then(function(files) { 
 		data = files[0];
 		defaultAttrConfig = files[1];
-    similarityCriteria = "dvt"
-
-    data = calcSimilarity(data);
 
 		originalData_nodes = data.nodes;
 		originalData_links = data.links;
@@ -28,32 +25,9 @@
 		//initialize views
 		 $("#n-methods").text("(" + data.nodes.length + ")");
 		 galleryVis = new Gallery("gallery-vis", mydata, defaultAttrConfig);
-		 similarityVis = new SimilarityVis("similarity-vis", mydata, defaultAttrConfig);
      updateViews()
 
 	});
-
-function calcSimilarity(data){
-  data.nodes.forEach(function(node,index){
-    var similarLTs = ""
-    data.links.forEach(function(link){
-      if (link.source == node.id && link.value_dvt>=0.5){
-        similarLTs += link.target
-        similarLTs += ", "
-      }
-      if (link.target == node.id && link.value_dvt>=0.5){
-        similarLTs += link.source
-        similarLTs += ", "
-      }
-    });
-    if(similarLTs !="")
-      similarLTs = similarLTs.substring(0, similarLTs.length - 2);
-    node["similarity"] = similarLTs;
-   // console.log("similarLTs: "+similarLTs);
-
-  });
-  return data;
-}
 
 function filterNodes() {
   nodes = originalData_nodes;
@@ -100,32 +74,14 @@ function filterNodes() {
   // console.log(mydata.attribute_groups)
 }
 
-function filterSimilarity(){
-  links = mydata.links;
-  var simThreshold = $("#similarity-threshold-slider").val();
-  links = links.filter(function(d){ 
-          var decision = true;
-          if(similarityCriteria=="dvt" && d.value_dvt<simThreshold)
-            decision = false;
-          if(similarityCriteria=="dit" && d.value_dit<simThreshold)
-            decision = false;
-    return decision;
-  });
-
-  mydata.links = links;
-}
-
 function updateViews() {
 
 	filterNodes();
-  filterSimilarity();
 	$("#n-methods").text("(" + data.nodes.length + ")");
 
 	//update visualizations
 	galleryVis.data = mydata;
 	galleryVis.wrangleDataAndUpdate();
-	similarityVis.data = mydata;
-	similarityVis.wrangleDataAndUpdate();
 }
 
 
@@ -171,23 +127,6 @@ $("#filter-controls").on("change", ".filter-checkboxes input:checkbox", function
   updateViews();
 });
 
-
-$("#similarity-threshold-slider").on("change",function(event){
-  newValue =$(this).val();
-  $("#similarity-threshold-val").text(newValue);
-  updateViews()
-
-});
-
-$("#similarity-threshold-slider").on("click",function(event){
-  event.stopPropagation() 
-})
-$(".similarity-radio").on("click",function(event){
-  similarityCriteria = $(this).val()
-  updateViews()
-  event.stopPropagation() 
-})
-
 function getEnabledCheckboxes(parentElement, dataAttribute) {
   var checkboxValues = $(parentElement + " input:checkbox:checked").map(function() {
     return dataAttribute ? $(this).attr("data-" + dataAttribute) : $(this).val();
@@ -208,56 +147,5 @@ function generateMethodToolTip(method){
             +button
             +'</div>';
   return result;
-}
-
-$("#similarity-vis").click(function(){
-  console.log("clicked ...")
-  $("#method-tooltip").html("");
-  d3.selectAll(".nodes").style('opacity', 1).style('stroke', 'none');
-  d3.selectAll(".links").style('stroke', 'grey').style('stroke-opacity', .7).style('stroke-width', '1');
-  d3.selectAll(".labels").style("font-size", 10 ).style("opacity",1); 
-  d3.selectAll(".nodes").classed('node-anchored',false)
-  d3.selectAll(".links").classed("link-anchored",false);
-});
-
-function hoverOnSimilarityEffects(d){
-  var nodes_enter = d3.selectAll(".nodes");
-  var links_enter = d3.selectAll(".links");
-  var labels_enter = d3.selectAll(".labels");
-
-  nodes_enter.style('opacity', function(node_d){
-        var decision = node_d.id === d.id?1:.2;
-        mydata.links.forEach(function(link){
-          if ((link.source ===d.id && link.target === node_d.id) || (link.target ===d.id && link.source === node_d.id)){
-            decision = 1;}
-        });
-        return decision;
-  });
-
-  nodes_enter.style('stroke', function(node_d){return node_d.id === d.id?'black':'none';      });
-  nodes_enter.style('stroke-width', function(node_d){return node_d.id === d.id?2:1; });
-
-  // Highlight the connections
-  links_enter.style('stroke', function (link_d) { return link_d.source === d.id || link_d.target === d.id ? 'black' : '#b8b8b8';})
-    .style('stroke-opacity', function (link_d) { return link_d.source === d.id || link_d.target === d.id ? 1 : .2;})
-
-  // Highlight connection labels
-  labels_enter.style("opacity", function(label_d){
-    var decision = label_d.id === d.id ? 1 :.3;
-    mydata.links.forEach(function(link){
-      if ((link.source ===d.id && link.target === label_d.id) || (link.target ===d.id && link.source === label_d.id)){
-        decision = 1;
-      }
-    });
-    return decision;
-  });
-}
-
-function resetHoverSimilarityEffects(){
-  d3.selectAll(".nodes").style('opacity', 1).style('stroke', 'none');
-  d3.selectAll(".links").style('stroke', 'grey').style('stroke-opacity', .7).style('stroke-width', '1');
-  d3.selectAll(".labels").style("font-size", 10 ).style("opacity",1); 
-  d3.selectAll(".node-anchored").style('stroke','black').style('stroke-width',2);
-  d3.selectAll(".link-anchored").style('stroke','black').style('stroke-opacity',1).style('stroke-width',1.5);
 }
 
