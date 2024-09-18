@@ -42,7 +42,7 @@ Gallery.prototype.updateVis = function() {
   galleryItem_enter.merge(vis.my_galleryitems)
 			      .html(function(d) {
 			      	 // var resizedFiguresPath = d.figure;
-               var methodThumbnail = '<div class="uk-cover-containerx gallery-item__thumbnail"><div class="uk-transition-toggle" tabindex="0"><img loading="lazy" src="./Gifs/' +  d.figure + '" alt=""><div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary uk-flex uk-flex-center uk-flex-middle"><div class="uk-position-center uk-panel"><p class="uk-transition-slide-bottom-small" style="text-align: center;">'+d.id+'</p></div></div></div></div>';
+               var methodThumbnail = '<div class="uk-cover-containerx gallery-item__thumbnail"><div class="uk-transition-toggle" tabindex="0"><img src="./Gifs/' +  d.figure + '" alt=""><div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary uk-flex uk-flex-center uk-flex-middle"><div class="uk-position-center uk-panel"><p class="uk-transition-slide-bottom-small" style="text-align: center;">'+d.id+'</p></div></div></div></div>';
 
 			      	 // if(d.figure.length>0)
 			        //  	var methodThumbnail = '<div class="uk-cover-containerx gallery-item__thumbnail"><img src="./Gifs/' +  d.figure[0] + '" alt=""></div>';
