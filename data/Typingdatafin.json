@@ -1438,7 +1438,7 @@
                 "audioFeedback": "Key activation",
                 "visualFeedback": [
                     "Hovering",
-                    " Other(Swipe)"
+                    "Other"
                 ],
                 "visualBodyRepresentation": "rays or drums",
                 "visualKeyboardRepresentation": "virtual keyboard",

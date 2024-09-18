@@ -135,30 +135,8 @@
       "key" : "hapticFeedback",
       "title" : "Haptic Feedback",
       "parent" : "Interaction Attributes",
-      "type" : "multi_select",
+      "type" : "checkbox",
       "active" : false,
-      "values" : [
-        {
-          "title" : "None",
-          "value" : "None",
-          "checked" : false
-        },
-        {
-          "title" : "Hovering",
-          "value" : "Hovering",
-          "checked" : false
-        },
-        {
-          "title" : "Activation",
-          "value" : "Key activation",
-          "checked" : false
-        },
-        {
-          "title" : "Other",
-          "value" : "Other",
-          "checked" : false
-        }
-      ],
       "filter" : true,
       "display" : true
     },
@@ -166,30 +144,8 @@
       "key" : "audioFeedback",
       "title" : "Audio Feedback",
       "parent" : "Interaction Attributes",
-      "type" : "multi_select",
+      "type" : "checkbox",
       "active" : false,
-      "values" : [
-        {
-          "title" : "None",
-          "value" : "None",
-          "checked" : false
-        },
-        {
-          "title" : "Hovering",
-          "value" : "Hovering",
-          "checked" : false
-        },
-        {
-          "title" : "Activation",
-          "value" : "Key activation",
-          "checked" : false
-        },
-        {
-          "title" : "Other",
-          "value" : "Other",
-          "checked" : false
-        }
-      ],
       "filter" : true,
       "display" : true
     },
@@ -197,30 +153,8 @@
       "key" : "visualFeedback",
       "title" : "Visual Feedback",
       "parent" : "Interaction Attributes",
-      "type" : "multi_select",
+      "type" : "checkbox",
       "active" : false,
-      "values" : [
-        {
-          "title" : "None",
-          "value" : "None",
-          "checked" : false
-        },
-        {
-          "title" : "Hovering",
-          "value" : "Hovering",
-          "checked" : false
-        },
-        {
-          "title" : "Activation",
-          "value" : "Key activation",
-          "checked" : false
-        },
-        {
-          "title" : "Other",
-          "value" : "Other",
-          "checked" : false
-        }
-      ],
       "filter" : true,
       "display" : true
     },
