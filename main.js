@@ -56,8 +56,8 @@
             case "range":
               if (d[activeFilter.key] < activeFilter.selectedValues[0] || d[activeFilter.key] > activeFilter.selectedValues[1])
                 decision = false;
-              if (d[activeFilter.key] == "")
-                decision = true;
+              else if (d[activeFilter.key] == null)
+                decision = false;
               break;
   
             // Default case: checking for an array match instead of an exact match

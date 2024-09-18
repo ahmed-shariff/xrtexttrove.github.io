@@ -53,7 +53,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -114,7 +114,7 @@
                 "vrar": "both",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -194,7 +194,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -219,7 +219,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -244,7 +244,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -745,7 +745,7 @@
                 "vrar": "both",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -868,8 +868,7 @@
                 "concurrencyNumberOfPossibleInputPoints": "one",
                 "vrar": "VR only",
                 "phraseSet": "NA",
-                "study": "No",
-                "wordsPerMinute": "Unknown"
+                "study": "No"
             },
             {
                 "id": "HoVR-Type",
@@ -893,7 +892,7 @@
                 "vrar": "both",
                 "phraseSet": "Unknown",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -1120,7 +1119,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -1151,7 +1150,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -1176,7 +1175,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -1204,7 +1203,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -1229,7 +1228,7 @@
                 "vrar": "AR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -1389,7 +1388,7 @@
                 "vrar": "AR only",
                 "phraseSet": "Enron mobile dataset, MacKenzie and Soukoref",
                 "study": "Yes",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -1745,7 +1744,6 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unkown",
                 "othermetrics": "NA"
             },
             {
@@ -2012,7 +2010,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -2037,7 +2035,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "Subset of SUS"
             },
             {
@@ -2062,7 +2060,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "Subset of SUS"
             },
             {
@@ -2090,7 +2088,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -2177,7 +2175,7 @@
                 "vrar": "both",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -2428,7 +2426,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -2481,7 +2479,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -2506,7 +2504,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -2846,7 +2844,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -2874,7 +2872,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -2902,7 +2900,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -3206,7 +3204,7 @@
                 "vrar": "VR only",
                 "phraseSet": "MacKenzie and Soukoref",
                 "study": "Yes",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "Speed: HeadCross (AVG=1.36s, STD=0.07s), Participantsrated for the experience in the aspects of fatigue, mental effort, learning effort, perceived speed, and perceivedaccuracy. "
             },
             {
@@ -3350,7 +3348,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -3582,7 +3580,7 @@
                 "vrar": "both",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -3613,7 +3611,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -3644,7 +3642,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -4428,7 +4426,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
@@ -4634,7 +4632,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "subjective ratings of Comfort, Intuitive, Real-time, Convenient, Smooth, Willingness to us, Realistic"
             },
             {
@@ -4665,7 +4663,7 @@
                 "vrar": "VR only",
                 "phraseSet": "NA",
                 "study": "No",
-                "wordsPerMinute": "Unknown",
+                 
                 "othermetrics": "NA"
             },
             {
