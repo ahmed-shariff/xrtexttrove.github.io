@@ -114,30 +114,24 @@ FilterManager.prototype.createCheckboxFilter = function(filterElem, filterGroup)
 FilterManager.prototype.createRangeSlider = function(filterElem, filterGroup) {
   var manager = this;
 
-
   methodsWYear = manager.data.nodes.filter(function(d){
     return true;
     // return d[filterElem.key]==""? false:true;
-  })
+  });
 
-  if(filterElem.key=="year") 
+  if(filterElem.key == "year") 
     manager.createFrequencyPlot(filterElem, filterGroup, methodsWYear);
 
-  var rangeSliderDomain = d3.extent(methodsWYear, function(d) {return parseInt(d[filterElem.key])});
+  // Modify this to handle float values
+  var rangeSliderDomain = d3.extent(methodsWYear, function(d) { return parseFloat(d[filterElem.key]); });
   
-  // console.log (rangeSliderDomain);
-
   var titleWidth = filterElem.customWidth ? filterElem.customWidth.title : "uk-width-1-4";
   var uiWidth = filterElem.customWidth ? filterElem.customWidth.ui : "uk-width-3-4";
 
   var filterResult = '<div id="filter-grid-'+filterElem.title.toLowerCase()+'" class="filter filter-range uk-grid-collapse" uk-grid>\
       <div class="'+ titleWidth +' filter-title">' + filterElem.title + '</div>'+
       '<div class="'+ uiWidth +'">'+
-        // '<div class="uk-margin-small-right"><span>'+rangeSliderDomain[0]+'</span></div>'+
-        // <div><input type="number" min="'+ rangeSliderDomain[0] +'" max="'+ rangeSliderDomain[1] +'" step="1" class="filter-range-input filter-range-input-min uk-margin-small-right" value="'+ rangeSliderDomain[0] +'"></div>\
         '<div class="uk-width-expand" id="range-slider-'+ filterElem.key +'"></div>'+
-        // '<div class="uk-margin-small-left"><span>'+rangeSliderDomain[1]+'</span></div>'
-        // <div><input type="number" min="'+ rangeSliderDomain[0] +'" max="'+ rangeSliderDomain[1] +'" step="1" class="filter-range-input filter-range-input-max uk-margin-left" value="'+ rangeSliderDomain[1] +'"></div>\
       '</div>\
     </div>';
   
@@ -150,29 +144,34 @@ FilterManager.prototype.createRangeSlider = function(filterElem, filterGroup) {
     behaviour: 'drag-tap',
     connect: true,
     tooltips: true,
-    step:1,
+    // Modify the step to allow for float precision if needed
+    step: 0.01, // Adjust the step based on your precision needs
     range: {
       'min': rangeSliderDomain[0],
       'max': rangeSliderDomain[1]
     },
     format: wNumb({
-        decimals: 0
+        decimals: 2 // Update the number of decimals to show in the slider tooltip
     })
   });
 
   slider.on('update', function(values, handle) {
-    $(sliderContainer).closest(".filter").find(".filter-range-input-min").val(parseInt(values[0]));
-    $(sliderContainer).closest(".filter").find(".filter-range-input-max").val(parseInt(values[1]));
+    // Modify to handle float values
+    $(sliderContainer).closest(".filter").find(".filter-range-input-min").val(parseFloat(values[0]));
+    $(sliderContainer).closest(".filter").find(".filter-range-input-max").val(parseFloat(values[1]));
   });
+
   slider.on('end', function(values, handle) {
-    if(values[0] == rangeSliderDomain[0] && rangeSliderDomain[1] == parseInt(values[1])) {
+    // Modify to handle float values
+    if(values[0] == rangeSliderDomain[0] && rangeSliderDomain[1] == parseFloat(values[1])) {
       fM.removeActiveFilter(filterElem.key);
     } else {
-      fM.addActiveFilter(filterElem.key, [parseInt(values[0]),parseInt(values[1])]);
+      fM.addActiveFilter(filterElem.key, [parseFloat(values[0]), parseFloat(values[1])]);
     }
     updateViews();
   });
 }
+
 
 FilterManager.prototype.createFrequencyPlot = function(filterElem, filterGroup, data) {
   manager = this;

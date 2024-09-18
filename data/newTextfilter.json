@@ -392,12 +392,12 @@
       },
   
       {
-        "key" : "overallTLX",
+        "key" : "overalltlx",
         "title" : "Overall TLX",
         "parent" : "Performance Metrics",
           "type" : "range_slider",
           "valueMatching" : "range",
-          "filter" : false,
+          "filter" : true,
           "display" : true
       },
       {
