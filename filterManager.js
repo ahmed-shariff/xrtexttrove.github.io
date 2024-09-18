@@ -1,55 +1,108 @@
 FilterManager = function(_defaultConfig, _data) {
   this.filters = _defaultConfig.attributes;
-  // this.parameters = _defaultConfig.parameters;
   this.data = _data;
-  this.settings={
-    contextHeight:50,
-    margin: {left:0,right:0,top:0,bottom:0},
-    padding:{left:0, right:5}
+  this.settings = {
+    contextHeight: 50,
+    margin: {left: 0, right: 0, top: 0, bottom: 0},
+    padding: {left: 0, right: 5}
   };
-  
+
   this.activeFilters = [];
 
   this.updateFilters();
-  // this.createFilterConfigModal();
 }
 
+
+// This function creates the "Remove all Filters" button
+FilterManager.prototype.createRemoveAllFiltersButton = function() {
+  var manager = this;
+  var removeAllButton = '<button id="remove-all-filters" class="uk-button uk-button-danger uk-margin-bottom uk-align-center">Remove all Filters</button>';
+  
+  // Appending the button to the filter-controls container
+  $("#filter-controls").prepend(removeAllButton);
+
+  // Adding an event listener to the button to clear all active filters
+  $("#remove-all-filters").on("click", function() {
+    manager.clearAllFilters();
+    updateViews();  // Assuming this function updates the view when filters are changed
+  });
+}
+
+
+// This function clears all active filters
+FilterManager.prototype.clearAllFilters = function() {
+  var manager = this;
+
+  // Reset all filters and their selected values
+  manager.filters.forEach(function(filterElem) {
+    if(filterElem.type=="range_slider"){
+      
+      var slider = document.getElementById("range-slider-" + filterElem.key);
+      Object.keys(slider.noUiSlider).forEach((prop)=> console.log(prop));
+      slider.noUiSlider.reset();
+    }
+    filterElem.active = false;
+    filterElem.selectedValues = null;
+  });
+
+  // Clear active filters array
+  manager.activeFilters = [];
+  $(".filter-checkbox-label input").prop('checked', true);  // Reset checkboxes
+  $(".filter-button-group button").removeClass('active');    // Reset multi-select buttons
+
+  // Reset all filter elements
+  manager.filters.forEach(function(filterElem) {
+    //console.log(filterElem.type)
+    if(filterElem.type=="range_slider"){
+      //console.log(filterElem.selectedValues)
+      //Object.keys(filterElem).forEach((prop)=> console.log(prop));
+    }
+    filterElem.active = false;
+    filterElem.selectedValues = null;
+  });
+  updateViews();
+  console.log("All filters removed");
+}
+
+// Highlighted Change: Call createRemoveAllFiltersButton in updateFilters
 FilterManager.prototype.updateFilters = function() {
   var manager = this;
 
-  // document.getElementById("sidebar").style.height = document.getElementById('gallery-vis').clientHeight+document.getElementById('similarity-vis').clientHeight;
-
-
-  manager.filters = manager.filters.filter(function(d){
+  // Filter only active filters
+  manager.filters = manager.filters.filter(function(d) {
     return d.filter == true;
   });
 
+  // Nest filters by parent
   manager.nestedFilters = d3.nest()
-      .key(function(d) { return d.parent; })
-      .entries(manager.filters);
+    .key(function(d) { return d.parent; })
+    .entries(manager.filters);
 
+  // Clear current filters from the UI
   $("#filter-controls").empty();
 
-  manager.nestedFilters.forEach(function(filterGroup) {
-   
-    // Append new accordion child element for each filter group
-    $("#filter-controls").append('<div id="' + filterGroup.key +'"></div><hr>');
+  // Call the new function to create the "Remove all Filters" button
+  manager.createRemoveAllFiltersButton(); // Highlighted Change: Adding the button
 
-      filterGroup.values.forEach(function(filterElem) {
-        switch(filterElem.type) {
-          case "range_slider":
-              manager.createRangeSlider(filterElem, filterGroup.key);
-              break;
-          case "multi_select":
-              manager.createMultiSelect(filterElem, filterGroup.key);
-              break;
-          case "checkbox":
-              manager.createCheckboxFilter(filterElem, filterGroup.key);
-              break;
-          default:
-              console.log("do nothing");
-          }
-      });
+  // Render the nested filter groups
+  manager.nestedFilters.forEach(function(filterGroup) {
+    $("#filter-controls").append('<div id="' + filterGroup.key + '"></div><hr>');
+
+    filterGroup.values.forEach(function(filterElem) {
+      switch(filterElem.type) {
+        case "range_slider":
+          manager.createRangeSlider(filterElem, filterGroup.key);
+          break;
+        case "multi_select":
+          manager.createMultiSelect(filterElem, filterGroup.key);
+          break;
+        case "checkbox":
+          manager.createCheckboxFilter(filterElem, filterGroup.key);
+          break;
+        default:
+          console.log("do nothing");
+      }
+    });
   });
 }
 
