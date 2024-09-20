@@ -2,6 +2,7 @@
  var originalData_nodes, originalData_links, originalData_attribute_groups, mydata,defaultAttrConfig;
  var galleryVis, fM, formM;
  var defaultConfig = {};
+ 
 // read data
  Promise.all([
      d3.json("./data/Typingdatafin.json"),
