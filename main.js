@@ -23,6 +23,7 @@
 		 $("#n-methods").text("(" + data.nodes.length + ")");
 		 galleryVis = new Gallery("gallery-vis", mydata, defaultAttrConfig);
      updateViews()
+     setTimeout(function() { updateViews(); }, 5000);
 
 	});
 
