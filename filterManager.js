@@ -47,7 +47,7 @@ FilterManager.prototype.clearAllFilters = function() {
   // Clear active filters array
   manager.activeFilters = [];
   $(".filter-checkbox-label input").prop('checked', true);  // Reset checkboxes
-  $(".filter-button-group button").removeClass('active');    // Reset multi-select buttons
+  $(".filter-button-group button").addClass('active');    // Reset multi-select buttons
 
   // Reset all filter elements
   manager.filters.forEach(function(filterElem) {
