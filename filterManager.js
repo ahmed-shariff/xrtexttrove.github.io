@@ -16,10 +16,10 @@ FilterManager = function(_defaultConfig, _data) {
 // This function creates the "Remove all Filters" button
 FilterManager.prototype.createRemoveAllFiltersButton = function() {
   var manager = this;
-  var removeAllButton = '<button id="remove-all-filters" class="uk-button uk-button-danger uk-margin-bottom uk-align-center">Remove all Filters</button>';
+  var removeAllButton = '<button id="remove-all-filters" class="uk-button uk-button-small uk-align-right">Reset Filters</button>';
   
   // Appending the button to the filter-controls container
-  $("#filter-controls").prepend(removeAllButton);
+  $("#bfilter").append(removeAllButton);
 
   // Adding an event listener to the button to clear all active filters
   $("#remove-all-filters").on("click", function() {
@@ -38,7 +38,6 @@ FilterManager.prototype.clearAllFilters = function() {
     if(filterElem.type=="range_slider"){
       
       var slider = document.getElementById("range-slider-" + filterElem.key);
-      Object.keys(slider.noUiSlider).forEach((prop)=> console.log(prop));
       slider.noUiSlider.reset();
     }
     filterElem.active = false;
