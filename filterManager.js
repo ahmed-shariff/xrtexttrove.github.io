@@ -112,7 +112,7 @@ FilterManager.prototype.createMultiSelect = function(filterElem, filterGroup) {
 
   filterElem.values.forEach(function(filterOptions) {
     var activeClass = filterOptions.checked ? "active" : "";
-    multiSelectButtons += '<button class="uk-button uk-button-small '+ activeClass +'" data-value="'+ filterOptions.value +'"><span>'+ filterOptions.title +'</span></button>';
+    multiSelectButtons += '<button class="uk-button uk-button-small active'+ activeClass +'" data-value="'+ filterOptions.value +'"><span>'+ filterOptions.title +'</span></button>';
   });
 
   var titleWidth = filterElem.customWidth ? filterElem.customWidth.title : "uk-width-1-4";
@@ -352,14 +352,25 @@ FilterManager.prototype.addActiveFilter = function(activeFilterKey, selectedFilt
 
 FilterManager.prototype.removeActiveFilter = function(oldFilterKey) {
   var manager = this;
-  
-  for(let filterElem of manager.filters) {
-    if (filterElem.key == oldFilterKey) {
-      filterElem.active = false;
-      manager.activeFilters.pop(filterElem.selectedValues)
-      filterElem.selectedValues = null; 
+  var filterIndex = -1;
+
+  for (var i = 0; i < manager.activeFilters.length; i++) {
+    if (manager.activeFilters[i] === oldFilterKey) {
+      filterIndex = i;
       break;
     }
   }
-  console.log(manager.activeFilters)
+
+  if (filterIndex !== -1) {
+    manager.activeFilters.splice(filterIndex, 1); // Remove the entire element at the index
+  }
+
+  for (let filterElem of manager.filters) {
+    if (filterElem.key == oldFilterKey) {
+      filterElem.active = false;
+      filterElem.selectedValues = null;
+      break;
+    }
+  }
+  console.log(manager.activeFilters);
 }

@@ -41,6 +41,7 @@
   
             // Array intersection logic: check if at least one value overlaps between two arrays
             case "arrayIntersection":
+              
               if (!d[activeFilter.key] || !Array.isArray(d[activeFilter.key])) {
                 decision = false;
                 break;
@@ -62,7 +63,9 @@
   
             // Default case: checking for an array match instead of an exact match
             default:
+              
               if (Array.isArray(d[activeFilter.key])) {
+                
                 // Check if at least one element in the node's array matches the selected values
                 const arrayMatch = d[activeFilter.key].some(value => activeFilter.selectedValues.includes(value));
                 if (!arrayMatch) {

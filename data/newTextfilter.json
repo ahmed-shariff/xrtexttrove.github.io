@@ -187,18 +187,18 @@
       "active" : false,
       "values" : [
         {
-          "title" : "one",
-          "value" : "one",
+          "title" : "One",
+          "value" : "One",
           "checked" : false
         },
         {
-          "title" : "two",
-          "value" : "two",
+          "title" : "Two",
+          "value" : "Two",
           "checked" : false
         },
         {
-          "title" : "multiple",
-          "value" : "multiple",
+          "title" : "Multiple",
+          "value" : "Multiple",
           "checked" : false
         }
       ],
