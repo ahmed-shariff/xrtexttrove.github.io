@@ -62,7 +62,10 @@
                 "source": "https://doi.org/10.1145/3173574.3174221",
                 "title": "Selection-Based Text Entry in Virtual Reality",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "None",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Finger(s)",
@@ -379,7 +382,10 @@
                 "source": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10272271\n",
                 "title": "Evaluating the Performance of Hand-Based Probabilistic Text Input Methods on a Mid-Air Virtual Qwerty Keyboard",
                 "year": 2023,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "None",
                 "keyboardBackendAlgorithmicAssitance": "Prediction",
                 "bodyPartForInput": [
@@ -411,7 +417,10 @@
                 "source": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10272271\n",
                 "title": "Evaluating the Performance of Hand-Based Probabilistic Text Input Methods on a Mid-Air Virtual Qwerty Keyboard",
                 "year": 2023,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "None",
                 "keyboardBackendAlgorithmicAssitance": "Prediction",
                 "bodyPartForInput": [
@@ -825,7 +834,10 @@
                 "source": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10268997",
                 "title": "Handwriting for Efficient Text Entry in Industrial VR Applications: Influence of Board Orientation and Sensory Feedback on Performance",
                 "year": 2023,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "Controller",
                 "keyboardBackendAlgorithmicAssitance": "Prediction",
                 "bodyPartForInput": "Hand(s)",
@@ -936,7 +948,10 @@
                 "source": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9284742",
                 "title": "Investigating Remote Tactile Feedback for Mid-Air Text-Entry in Virtual Reality",
                 "year": 2020,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "Custom Hardware",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Hand(s)",
@@ -967,7 +982,10 @@
                 "source": "https://ieeexplore.ieee.org/document/9284742",
                 "title": "Investigating Remote Tactile Feedback for Mid-Air Text-Entry in Virtual Reality",
                 "year": 2020,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "Custom Hardware",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Hand(s)",
@@ -1001,7 +1019,10 @@
                 "source": "https://ieeexplore.ieee.org/document/9284742",
                 "title": "Investigating Remote Tactile Feedback for Mid-Air Text-Entry in Virtual Reality",
                 "year": 2020,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "Custom Hardware",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Hand(s)",
@@ -1035,7 +1056,10 @@
                 "source": "https://ieeexplore.ieee.org/document/9284742",
                 "title": "Investigating Remote Tactile Feedback for Mid-Air Text-Entry in Virtual Reality",
                 "year": 2020,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "Custom Hardware",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Hand(s)",
@@ -1268,7 +1292,10 @@
                 "source": "https://ieeexplore.ieee.org/document/8943750",
                 "title": "Performance Envelopes of Virtual Keyboard Text Input Strategies in",
                 "year": 2019,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "None",
                 "keyboardBackendAlgorithmicAssitance": "Correction",
                 "bodyPartForInput": "Finger(s)",
@@ -1293,7 +1320,10 @@
                 "source": "https://ieeexplore.ieee.org/document/8943750",
                 "title": "Performance Envelopes of Virtual Keyboard Text Input Strategies in",
                 "year": 2019,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "None",
                 "keyboardBackendAlgorithmicAssitance": "Correction",
                 "bodyPartForInput": "Finger(s)",
@@ -1318,7 +1348,10 @@
                 "source": "https://ieeexplore.ieee.org/document/8943750",
                 "title": "Performance Envelopes of Virtual Keyboard Text Input Strategies in",
                 "year": 2019,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "None",
                 "keyboardBackendAlgorithmicAssitance": "Correction",
                 "bodyPartForInput": "Finger(s)",
@@ -1343,7 +1376,10 @@
                 "source": "https://ieeexplore.ieee.org/document/8943750",
                 "title": "Performance Envelopes of Virtual Keyboard Text Input Strategies in",
                 "year": 2019,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "None",
                 "keyboardBackendAlgorithmicAssitance": "Correction",
                 "bodyPartForInput": "Finger(s)",
@@ -1752,7 +1788,10 @@
                 "source": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8794572",
                 "title": "ReconViguRation: Reconfiguring Physical Keyboards in Virtual Reality",
                 "year": 2019,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": [
                     "Physical Keyboard",
                     "Custom Hardware"
@@ -1787,7 +1826,10 @@
                 "source": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8794572",
                 "title": "ReconViguRation: Reconfiguring Physical Keyboards in Virtual Reality",
                 "year": 2019,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": [
                     "Physical Keyboard",
                     "Custom Hardware"
@@ -1822,7 +1864,10 @@
                 "source": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8794572",
                 "title": "ReconViguRation: Reconfiguring Physical Keyboards in Virtual Reality",
                 "year": 2019,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": [
                     "Physical Keyboard",
                     "Custom Hardware"
@@ -1960,7 +2005,10 @@
                 "source": "https://doi.org/10.1145/3586183.3606803",
                 "title": "STAR: Smartphone-Analogous Typing in Augmented Reality",
                 "year": 2023,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "None",
                 "keyboardBackendAlgorithmicAssitance": "Prediction",
                 "bodyPartForInput": "Finger(s)",
@@ -2463,7 +2511,10 @@
                 "source": "https://doi.org/10.1145/3411764.3445671",
                 "title": "Understanding, Detecting and Mitigating the Effects of Coactivations in Ten-Finger Mid-Air Typing in Virtual Reality",
                 "year": 2021,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "None",
                 "keyboardBackendAlgorithmicAssitance": "Correction",
                 "bodyPartForInput": "Finger(s)",
@@ -2513,7 +2564,10 @@
                 "source": "https://doi.org/10.1145/3173574.3174221",
                 "title": "Selection-Based Text Entry in Virtual Reality",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "Controller",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Hand(s)",
@@ -2542,7 +2596,10 @@
                 "source": "https://doi.org/10.1145/3173574.3174221",
                 "title": "Selection-Based Text Entry in Virtual Reality",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "Controller",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Hand(s)",
@@ -2570,7 +2627,10 @@
                 "source": "https://ieeexplore.ieee.org/document/8446250",
                 "title": "Effects of Hand Representations for Typing in Virtual Reality",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": [
                     "Physical Keyboard",
                     "Custom Hardware"
@@ -2603,7 +2663,10 @@
                 "source": "https://ieeexplore.ieee.org/document/8446250",
                 "title": "Effects of Hand Representations for Typing in Virtual Reality",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": [
                     "Physical Keyboard",
                     "Custom Hardware"
@@ -2636,7 +2699,10 @@
                 "source": "https://ieeexplore.ieee.org/document/8446250",
                 "title": "Effects of Hand Representations for Typing in Virtual Reality",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": [
                     "Physical Keyboard",
                     "Custom Hardware"
@@ -2669,7 +2735,10 @@
                 "source": "https://ieeexplore.ieee.org/document/8446250",
                 "title": "Effects of Hand Representations for Typing in Virtual Reality",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": [
                     "Physical Keyboard",
                     "Custom Hardware"
@@ -2702,7 +2771,10 @@
                 "source": "https://doi.org/10.1145/3173574.3174221",
                 "title": "Selection-Based Text Entry in Virtual Reality",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "Controller",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": [
@@ -2800,7 +2872,10 @@
                 "source": "https://www.mdpi.com/2227-7080/7/2/31",
                 "title": "Text Input in Virtual Reality: A Preliminary Evaluation of the Drum-Like VR Keyboard",
                 "year": 2019,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "Controller",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Hand(s)",
@@ -3160,7 +3235,10 @@
                 "source": "https://dl.acm.org/doi/10.1145/3569461",
                 "title": "Handwriting Velcro",
                 "year": 2023,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "Custom Hardware",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Finger(s)",
@@ -3241,7 +3319,10 @@
                 "source": "https://doi.org/10.1145/3173574.3174221",
                 "title": "Selection-Based Text Entry in Virtual Reality",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "Controller",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Finger(s)",
@@ -3272,7 +3353,10 @@
                 "source": "https://doi.org/10.1145/3173574.3174221",
                 "title": "Selection-Based Text Entry in Virtual Reality",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": [
+                    "Academia",
+                    "Industry"
+                ],
                 "inputDevice": "Controller",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Finger(s)",
@@ -3923,7 +4007,7 @@
                 "source": "https://dl.acm.org/doi/10.1145/3173574.3173919",
                 "title": "Physical Keyboards in Virtual Reality: Analysis of Typing Performance and Effects of Avatar Hands",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": "Academia",
                 "inputDevice": "Physical Keyboard",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Finger(s)",
@@ -3954,7 +4038,7 @@
                 "source": "https://dl.acm.org/doi/10.1145/3173574.3173919",
                 "title": "Physical Keyboards in Virtual Reality: Analysis of Typing Performance and Effects of Avatar Hands",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": "Academia",
                 "inputDevice": "Physical Keyboard",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Finger(s)",
@@ -3985,7 +4069,7 @@
                 "source": "https://dl.acm.org/doi/10.1145/3173574.3173919",
                 "title": "Physical Keyboards in Virtual Reality: Analysis of Typing Performance and Effects of Avatar Hands",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": "Academia",
                 "inputDevice": "Physical Keyboard",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Finger(s)",
@@ -4016,7 +4100,7 @@
                 "source": "https://dl.acm.org/doi/10.1145/3173574.3173919",
                 "title": "Physical Keyboards in Virtual Reality: Analysis of Typing Performance and Effects of Avatar Hands",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": "Academia",
                 "inputDevice": "Physical Keyboard",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Finger(s)",
@@ -4047,7 +4131,7 @@
                 "source": "https://dl.acm.org/doi/10.1145/3173574.3173919",
                 "title": "Physical Keyboards in Virtual Reality: Analysis of Typing Performance and Effects of Avatar Hands",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": "Academia",
                 "inputDevice": "Physical Keyboard",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Finger(s)",
@@ -4078,7 +4162,7 @@
                 "source": "https://dl.acm.org/doi/10.1145/3173574.3173919",
                 "title": "Physical Keyboards in Virtual Reality: Analysis of Typing Performance and Effects of Avatar Hands",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": "Academia",
                 "inputDevice": "Physical Keyboard",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Finger(s)",
@@ -4109,7 +4193,7 @@
                 "source": "https://dl.acm.org/doi/10.1145/3173574.3173919",
                 "title": "Physical Keyboards in Virtual Reality: Analysis of Typing Performance and Effects of Avatar Hands",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": "Academia",
                 "inputDevice": "Physical Keyboard",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Finger(s)",
@@ -4140,7 +4224,7 @@
                 "source": "https://dl.acm.org/doi/10.1145/3173574.3173919",
                 "title": "Physical Keyboards in Virtual Reality: Analysis of Typing Performance and Effects of Avatar Hands",
                 "year": 2018,
-                "origin": "Industry",
+                "origin": "Academia",
                 "inputDevice": "Physical Keyboard",
                 "keyboardBackendAlgorithmicAssitance": "None",
                 "bodyPartForInput": "Finger(s)",
