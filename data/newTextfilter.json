@@ -231,8 +231,8 @@
           "checked" : false
         },
         {
-          "title" : "both",
-          "value" : "both",
+          "title" : "Both",
+          "value" : "Both",
           "checked" : false
         }
       ],
