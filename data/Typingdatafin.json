@@ -29,6 +29,7 @@
                 "cer": 2.92,
                 "uer": 1.5,
                 "ter": 4.42,
+                "levelOfErrorRate": "word-level",
                 "Othermetrics": "Accuracy of word predictions, time components of entering words (typing, selecting, pause), subjective ratings of speed, accuracy, fatigure, preferences"
             },
             {
@@ -83,6 +84,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 9.77,
                 "msder": 7.57,
+                "levelOfErrorRate": "character-level",
                 "physical": 0.4643,
                 "frustration": 0.5071,
                 "Othermetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ)"
@@ -274,6 +276,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 28.37,
                 "ter": 7.33,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Borg CR10,  System usability scale (SUS)"
             },
             {
@@ -302,6 +305,7 @@
                 "cer": 5.83,
                 "uer": 1.96,
                 "ter": 7.79,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "social acceptability questionnaire"
             },
             {
@@ -339,6 +343,7 @@
                 "cer": 2.41,
                 "uer": 0.09,
                 "ter": 2.5,
+                "levelOfErrorRate": "character-level",
                 "overalltlx": 0.30829999999999996,
                 "Othermetrics": "NA"
             },
@@ -409,6 +414,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 30.6,
                 "msder": 1.59,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Perceived Speed, Accuracy and Comfort"
             },
             {
@@ -441,6 +447,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 33.8,
                 "msder": 1.9,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Perceived Speed, Accuracy and Comfort"
             },
             {
@@ -472,6 +479,7 @@
                 "cer": 9.030000000000001,
                 "uer": 0.61,
                 "ter": 9.64,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SSQ, UEQ"
             },
             {
@@ -500,6 +508,7 @@
                 "cer": 8.03,
                 "uer": 1.01,
                 "ter": 9.04,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SSQ, UEQ"
             },
             {
@@ -531,6 +540,7 @@
                 "cer": 9.54,
                 "uer": 0.9,
                 "ter": 10.44,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SSQ, UEQ"
             },
             {
@@ -567,6 +577,7 @@
                 "performance": 0.42,
                 "effort": 0.483,
                 "frustration": 0.341,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Homing time, UEQ"
             },
             {
@@ -603,6 +614,7 @@
                 "performance": 0.44,
                 "effort": 0.48,
                 "frustration": 0.35,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Homing time, UEQ"
             },
             {
@@ -639,6 +651,7 @@
                 "performance": 0.31,
                 "effort": 0.32,
                 "frustration": 0.3,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Homing time, UEQ"
             },
             {
@@ -675,6 +688,7 @@
                 "performance": 0.26,
                 "effort": 0.27,
                 "frustration": 0.19,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Homing time, UEQ"
             },
             {
@@ -704,6 +718,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 26.52,
                 "msder": 0.62,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Open Comments"
             },
             {
@@ -729,7 +744,8 @@
                 "phraseSet": "\"the and you that is in of know not they get have were are bit quick fox jumps lazy on\"",
                 "study": "Yes",
                 "wordsPerMinute": 33.1,
-                "wer": 13.45,
+                "msder": 13.45,
+                "levelOfErrorRate": "word-level",
                 "Othermetrics": "Comfort rating"
             },
             {
@@ -789,6 +805,7 @@
                 "ter": 2.9,
                 "mental": 0.4114285714285714,
                 "physical": 0.58,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "hand movement (measured in m), Borg CR10 for eye fatigue and arm fatigue, preference ranking"
             },
             {
@@ -826,6 +843,7 @@
                 "ter": 2.98,
                 "mental": 0.5185714285714286,
                 "physical": 0.5185714285714286,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "hand movement (measured in m), Borg CR10 for eye fatigue and arm fatigue, preference ranking"
             },
             {
@@ -857,6 +875,7 @@
                 "ter": 9.28,
                 "msder": 1.05,
                 "overalltlx": 0.4011,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SUS questionnaire"
             },
             {
@@ -940,6 +959,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 13.3,
                 "msder": 2.3,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "typing micro-metrics, subjective ratings of confidence, physical demand and mental demand, and gaze behavioral metrics"
             },
             {
@@ -974,6 +994,7 @@
                 "cer": 1.2,
                 "uer": 15.1,
                 "ter": 16.3,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Micro metrics such as press duration, finger travel, finger-key collisions, and finger usage"
             },
             {
@@ -1011,6 +1032,7 @@
                 "cer": 1.15,
                 "uer": 12,
                 "ter": 13.15,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Micro metrics such as press duration, finger travel, finger-key collisions, and finger usage"
             },
             {
@@ -1048,6 +1070,7 @@
                 "cer": 0.9,
                 "uer": 14,
                 "ter": 14.9,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Micro metrics such as press duration, finger travel, finger-key collisions, and finger usage"
             },
             {
@@ -1085,6 +1108,7 @@
                 "cer": 1,
                 "uer": 12.4,
                 "ter": 13.4,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Micro metrics such as press duration, finger travel, finger-key collisions, and finger usage"
             },
             {
@@ -1283,7 +1307,8 @@
                 "wordsPerMinute": 10.5,
                 "cer": 1.74,
                 "uer": 1.58,
-                "ter": 3.3200000000000003,
+                "ter": 3.32,
+                "levelOfErrorRate": "word-level",
                 "Othermetrics": "level of comfort, learnability, efficiency, accuracy, absence of frustration, mental, physical demands, and overall preference using 1-10 scales"
             },
             {
@@ -1454,6 +1479,7 @@
                 "uer": 2.08,
                 "ter": 7.76,
                 "overalltlx": 0.3985,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "results from expert and novice users"
             },
             {
@@ -1494,6 +1520,7 @@
                 "temporal": 0.31901840490797545,
                 "effort": 0.3236196319018405,
                 "frustration": 0.2837423312883436,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Motion Sickness Assessment Questionnaire (MSAQ), Slater-Usoh-Steed Questionnaire (SUS), and User Experience Questionnaire (UEQ)"
             },
             {
@@ -1531,6 +1558,7 @@
                 "temporal": 0.5460122699386503,
                 "effort": 0.6395705521472392,
                 "frustration": 0.5214723926380368,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Motion Sickness Assessment Questionnaire (MSAQ), Slater-Usoh-Steed Questionnaire (SUS), and User Experience Questionnaire (UEQ)"
             },
             {
@@ -1571,6 +1599,7 @@
                 "temporal": 0.6441717791411042,
                 "effort": 0.7269938650306749,
                 "frustration": 0.6840490797546013,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Motion Sickness Assessment Questionnaire (MSAQ), Slater-Usoh-Steed Questionnaire (SUS), and User Experience Questionnaire (UEQ)"
             },
             {
@@ -1608,6 +1637,7 @@
                 "temporal": 0.5874233128834356,
                 "effort": 0.7852760736196319,
                 "frustration": 0.6840490797546013,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Motion Sickness Assessment Questionnaire (MSAQ), Slater-Usoh-Steed Questionnaire (SUS), and User Experience Questionnaire (UEQ)"
             },
             {
@@ -1645,6 +1675,7 @@
                 "temporal": 0.2684049079754601,
                 "effort": 0.3220858895705521,
                 "frustration": 0.26226993865030673,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Motion Sickness Assessment Questionnaire (MSAQ), Slater-Usoh-Steed Questionnaire (SUS), and User Experience Questionnaire (UEQ)"
             },
             {
@@ -1679,6 +1710,7 @@
                 "temporal": 0.3006134969325153,
                 "effort": 0.549079754601227,
                 "frustration": 0.37576687116564417,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Motion Sickness Assessment Questionnaire (MSAQ), Slater-Usoh-Steed Questionnaire (SUS), and User Experience Questionnaire (UEQ)"
             },
             {
@@ -1719,6 +1751,7 @@
                 "temporal": 0.31901840490797545,
                 "effort": 0.4616564417177914,
                 "frustration": 0.2684049079754601,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Motion Sickness Assessment Questionnaire (MSAQ), Slater-Usoh-Steed Questionnaire (SUS), and User Experience Questionnaire (UEQ)"
             },
             {
@@ -1756,6 +1789,7 @@
                 "temporal": 0.4340490797546012,
                 "effort": 0.5306748466257669,
                 "frustration": 0.39570552147239263,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Motion Sickness Assessment Questionnaire (MSAQ), Slater-Usoh-Steed Questionnaire (SUS), and User Experience Questionnaire (UEQ)"
             },
             {
@@ -1818,6 +1852,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 3.82,
                 "msder": 3.4,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "perceived security, seven-item Likert scales for questions\non ease of use (\u201dI found the application easy to use\u201d), utility (\u201dI found\nthe application to be useful\u201d) and enjoyment (\u201dI had fun interacting\nwith the application\u201d), open comments"
             },
             {
@@ -1856,6 +1891,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 6.03,
                 "msder": 3.4,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "perceived security, seven-item Likert scales for questions\non ease of use (\u201dI found the application easy to use\u201d), utility (\u201dI found\nthe application to be useful\u201d) and enjoyment (\u201dI had fun interacting\nwith the application\u201d), open comments"
             },
             {
@@ -1894,6 +1930,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 6.57,
                 "msder": 3.7,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "perceived security, seven-item Likert scales for questions\non ease of use (\u201dI found the application easy to use\u201d), utility (\u201dI found\nthe application to be useful\u201d) and enjoyment (\u201dI had fun interacting\nwith the application\u201d), open comments"
             },
             {
@@ -1925,6 +1962,7 @@
                 "cer": 0.45999999999999996,
                 "uer": 2.44,
                 "ter": 2.9,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "simulator sickness questionnaire (SSQ) with additional neck fatigue questions"
             },
             {
@@ -1956,6 +1994,7 @@
                 "cer": 12.9,
                 "uer": 1.1,
                 "ter": 14,
+                "levelOfErrorRate": "word-level",
                 "mental": 0.2857142857142857,
                 "physical": 0.42857142857142855,
                 "performance": 0.2857142857142857,
@@ -1992,6 +2031,7 @@
                 "cer": 8.9,
                 "uer": 0.5,
                 "ter": 9.4,
+                "levelOfErrorRate": "word-level",
                 "mental": 0.42857142857142855,
                 "physical": 0.42857142857142855,
                 "performance": 0.5714285714285714,
@@ -2033,7 +2073,8 @@
                 "wordsPerMinute": 21.9,
                 "cer": 8.8,
                 "uer": 0.3,
-                "ter": 9.100000000000001,
+                "ter": 9.1,
+                "levelOfErrorRate": "word-level",
                 "Othermetrics": "Keypress duration, interkey interval, backspace usage"
             },
             {
@@ -2167,6 +2208,7 @@
                 "wordsPerMinute": 44.81,
                 "ter": 2.13,
                 "overalltlx": 0.48469999999999996,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SUS, Subjective feedback"
             },
             {
@@ -2196,6 +2238,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 45.26,
                 "ter": 4.03,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SUS, Subjective feedback"
             },
             {
@@ -2253,6 +2296,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 19.2,
                 "msder": 0.6,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Qualitative feedback"
             },
             {
@@ -2282,6 +2326,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 27.9,
                 "msder": 0.5,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "2.11 Borg CR10"
             },
             {
@@ -2315,6 +2360,7 @@
                 "performance": 0.2897,
                 "effort": 0.3443,
                 "frustration": 0.2208,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SUS, UEQ, SSQ (simulator sickness)"
             },
             {
@@ -2348,6 +2394,7 @@
                 "performance": 0.295,
                 "effort": 0.295,
                 "frustration": 0.155,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SUS, UEQ, SSQ (simulator sickness)"
             },
             {
@@ -2376,6 +2423,7 @@
                 "cer": 4.59,
                 "uer": 0.3,
                 "ter": 4.89,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Auto-Complete Rate"
             },
             {
@@ -2411,6 +2459,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 33.2,
                 "msder": 1.1,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SSQ simulator questionnaire, IPQ spatial presence questionnaire and the Flow-Short-Scale, interview feedback"
             },
             {
@@ -2450,6 +2499,7 @@
                 "performance": 0.385,
                 "effort": 0.423,
                 "frustration": 0.365,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SSQ simulator questionnaire, IPQ spatial presence questionnaire and the Flow-Short-Scale, interview feedback"
             },
             {
@@ -2503,6 +2553,7 @@
                 "cer": 0.40000000000000036,
                 "uer": 5.1,
                 "ter": 5.5,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Subjective feedback, statistics of non typing actions such as deletion, selection"
             },
             {
@@ -2587,6 +2638,7 @@
                 "msder": 0.97,
                 "overalltlx": 0.3848,
                 "physical": 0.3786,
+                "levelOfErrorRate": "character-level",
                 "frustration": 0.391,
                 "Othermetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ)"
             },
@@ -2619,6 +2671,7 @@
                 "msder": 1.94,
                 "physical": 0.509,
                 "frustration": 0.4286,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ)"
             },
             {
@@ -2655,6 +2708,7 @@
                 "wordsPerMinute": 36.1,
                 "msder": 15.2,
                 "overalltlx": 0.579,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SSQ, IPQ, Flow Short Scale, Time to First Keypress, Open Comments"
             },
             {
@@ -2691,6 +2745,7 @@
                 "wordsPerMinute": 34.4,
                 "msder": 11.5,
                 "overalltlx": 0.512,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SSQ, IPQ, Flow Short Scale, Time to First Keypress, Open Comments"
             },
             {
@@ -2727,6 +2782,7 @@
                 "wordsPerMinute": 36.4,
                 "msder": 6.3,
                 "overalltlx": 0.475,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SSQ, IPQ, Flow Short Scale, Time to First Keypress, Open Comments"
             },
             {
@@ -2763,6 +2819,7 @@
                 "wordsPerMinute": 38.7,
                 "msder": 5.1,
                 "overalltlx": 0.43799999999999994,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SSQ, IPQ, Flow Short Scale, Time to First Keypress, Open Comments"
             },
             {
@@ -2797,6 +2854,7 @@
                 "msder": 1.15,
                 "physical": 0.4143,
                 "frustration": 0.4107,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ), subjective performance:40"
             },
             {
@@ -2825,7 +2883,8 @@
                 "phraseSet": "MacKenzie and Soukoref",
                 "study": "Yes",
                 "wordsPerMinute": 13.76,
-                "wer": 1.5,
+                "msder": 1.5,
+                "levelOfErrorRate": "word-level",
                 "overalltlx": 0.5523809523809524,
                 "mental": 0.6,
                 "physical": 0.6285714285714287,
@@ -2864,6 +2923,7 @@
                 "cer": 19.7,
                 "uer": 2,
                 "ter": 21.7,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Perfect word speed (not considering time used for correcting errors), user comfort THROUGH SIBJECTIVE FEEDBACK"
             },
             {
@@ -2895,6 +2955,7 @@
                 "cer": 7,
                 "uer": 0.2,
                 "ter": 7.2,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "System Usability Scale (SUS), Game Experience Questionnaire (GEQ)"
             },
             {
@@ -3001,8 +3062,7 @@
                 "phraseSet": "MacKenzie and Soukoref",
                 "study": "Yes",
                 "wordsPerMinute": 29.2,
-                "wer": 0.4,
-                "Othermetrics": "Number of Other actions performed by users, qualitative feedback"
+                "Othermetrics": "Number of Other actions performed by users, qualitative feedback, custom word error rate"
             },
             {
                 "id": "Surface Touch Typing",
@@ -3028,6 +3088,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 73,
                 "msder": 2.28,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "NA"
             },
             {
@@ -3110,6 +3171,7 @@
                 "uer": 3.32,
                 "ter": 11.05,
                 "overalltlx": 0.3542,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SUS"
             },
             {
@@ -3138,6 +3200,7 @@
                 "cer": 1.8,
                 "uer": 0.47,
                 "ter": 2.27,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Character Level Speed, Custom scale ---4.42, 5 point Likert scale: Mental demand:2.90, Frustration: 2.54, Physical demand: 2.73, Interaction Style: 4.0, Feelings of Success"
             },
             {
@@ -3172,6 +3235,7 @@
                 "cer": 6.22,
                 "uer": 0.7,
                 "ter": 6.92,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Custom scale -- Easy to learn, Easy to use, Prefer to use, Eye feels natural, Eye Fatigue"
             },
             {
@@ -3198,6 +3262,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 4.57,
                 "er": 1.82,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Custom scale -- Hand Fatigue and Preference"
             },
             {
@@ -3227,6 +3292,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 3.63,
                 "er": 0.79,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Custom scale -- Hand Fatigue and Preference"
             },
             {
@@ -3255,9 +3321,10 @@
                 "phraseSet": "Unknown",
                 "study": "Yes",
                 "wordsPerMinute": 12.3,
-                "cer": 0.005,
+                "cer": 0.5,
                 "uer": 0,
-                "ter": 0.005,
+                "ter": 0.5,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "User Preference"
             },
             {
@@ -3345,6 +3412,7 @@
                 "msder": 2.15,
                 "physical": 0.28809999999999997,
                 "frustration": 0.5738,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ), subjective performance:40"
             },
             {
@@ -3380,6 +3448,7 @@
                 "overalltlx": 0.5267000000000001,
                 "physical": 0.3071,
                 "frustration": 0.6214,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "UEQ: user experience questionnaire, Slater-Usoh-Steed Questionnair (SUS), Motion Sickness Assessment Questionnaire (MSAQ), subjective performance:40"
             },
             {
@@ -3536,6 +3605,7 @@
                 "cer": 0.0325,
                 "uer": 0.4,
                 "ter": 0.4325,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Prefferences"
             },
             {
@@ -3570,6 +3640,7 @@
                 "performance": 0.642,
                 "effort": 0.742,
                 "frustration": 0.442,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Borg CR10:\nShoulder 1.08 \nArm 0.83 \nForearm 0.75 \nWrist 0.83 \nHand 2.04,  questionnaire for social acceptability. open comments"
             },
             {
@@ -3599,6 +3670,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 5.3,
                 "msder": 8.6,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Angular Travel:1.5E3, Percent Ideal Travel: 4.0E3, positioning metrics"
             },
             {
@@ -3631,6 +3703,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 2.8,
                 "msder": 23,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Angular Travel:8.6E3, Percent Ideal Travel: 9.6E2, positioning metrics"
             },
             {
@@ -3827,6 +3900,7 @@
                 "wordsPerMinute": 28.6,
                 "ter": 18.2,
                 "overalltlx": 0.553,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "time to first character, first character correctness (%), KeystrokesperCharacter(KSPC), Erroneous Keystroke Error Rate (EKS ER) \nSubjective one: Ease of Use, Comfortability, Perceived Typing Speed, Preference"
             },
             {
@@ -3857,6 +3931,7 @@
                 "wordsPerMinute": 26,
                 "ter": 19.4,
                 "overalltlx": 0.56,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "time to first character, first character correctness (%), KeystrokesperCharacter(KSPC), Erroneous Keystroke Error Rate (EKS ER) \nSubjective one: Ease of Use, Comfortability, Perceived Typing Speed, Preference"
             },
             {
@@ -3887,6 +3962,7 @@
                 "wordsPerMinute": 25.3,
                 "ter": 16.6,
                 "overalltlx": 0.6,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "time to first character, first character correctness (%), KeystrokesperCharacter(KSPC), Erroneous Keystroke Error Rate (EKS ER) \nSubjective one: Ease of Use, Comfortability, Perceived Typing Speed, Preference"
             },
             {
@@ -3917,6 +3993,7 @@
                 "wordsPerMinute": 30.6,
                 "ter": 10.2,
                 "overalltlx": 0.476,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "time to first character, first character correctness (%), KeystrokesperCharacter(KSPC), Erroneous Keystroke Error Rate (EKS ER) \nSubjective one: Ease of Use, Comfortability, Perceived Typing Speed, Preference"
             },
             {
@@ -3947,6 +4024,7 @@
                 "wordsPerMinute": 30,
                 "ter": 10.2,
                 "overalltlx": 0.494,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "time to first character, first character correctness (%), KeystrokesperCharacter(KSPC), Erroneous Keystroke Error Rate (EKS ER) \nSubjective one: Ease of Use, Comfortability, Perceived Typing Speed, Preference"
             },
             {
@@ -3973,6 +4051,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 20.57,
                 "msder": 0.021,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Simulator Sickness Questionnaire (SSQ) [81] and the FlowShort-Scale questionnaire (FSS), prefferences and open comments"
             },
             {
@@ -3999,6 +4078,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 17.95,
                 "msder": 0.097,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Simulator Sickness Questionnaire (SSQ) [81] and the FlowShort-Scale questionnaire (FSS), prefferences and open comments"
             },
             {
@@ -4030,6 +4110,7 @@
                 "cer": 7.681,
                 "msder": 1.14,
                 "overalltlx": 0.5499999999999999,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Presence Questionnaire (PQ), thetime (in s) a user needed for the \ufb01rst correct keyboard input"
             },
             {
@@ -4061,6 +4142,7 @@
                 "cer": 7.712,
                 "msder": 1.001,
                 "overalltlx": 0.5499999999999999,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Presence Questionnaire (PQ), thetime (in s) a user needed for the \ufb01rst correct keyboard input"
             },
             {
@@ -4092,6 +4174,7 @@
                 "cer": 7.726,
                 "msder": 1.003,
                 "overalltlx": 0.5499999999999999,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Presence Questionnaire (PQ), thetime (in s) a user needed for the \ufb01rst correct keyboard input"
             },
             {
@@ -4123,6 +4206,7 @@
                 "cer": 7.749,
                 "msder": 1.121,
                 "overalltlx": 0.5916666666666667,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Presence Questionnaire (PQ), thetime (in s) a user needed for the \ufb01rst correct keyboard input"
             },
             {
@@ -4154,6 +4238,7 @@
                 "cer": 9.486,
                 "msder": 1.244,
                 "overalltlx": 0.6,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Presence Questionnaire (PQ), thetime (in s) a user needed for the \ufb01rst correct keyboard input"
             },
             {
@@ -4185,6 +4270,7 @@
                 "cer": 7.683,
                 "msder": 1.304,
                 "overalltlx": 0.5750000000000001,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Presence Questionnaire (PQ), thetime (in s) a user needed for the \ufb01rst correct keyboard input"
             },
             {
@@ -4216,6 +4302,7 @@
                 "cer": 4.904,
                 "msder": 0.713,
                 "overalltlx": 0.625,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Presence Questionnaire (PQ), thetime (in s) a user needed for the \ufb01rst correct keyboard input"
             },
             {
@@ -4247,6 +4334,7 @@
                 "cer": 14.015,
                 "msder": 0.74,
                 "overalltlx": 0.7999999999999999,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Presence Questionnaire (PQ), thetime (in s) a user needed for the \ufb01rst correct keyboard input"
             },
             {
@@ -4278,6 +4366,7 @@
                 "cer": 30.26,
                 "uer": 0.61,
                 "ter": 30.87,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Duration To First Key , First Key Accuracy"
             },
             {
@@ -4309,6 +4398,7 @@
                 "cer": 8.13,
                 "uer": 1.07,
                 "ter": 9.200000000000001,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Duration To First Key , First Key Accuracy"
             },
             {
@@ -4340,6 +4430,7 @@
                 "cer": 8.63,
                 "uer": 1.78,
                 "ter": 10.41,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Duration To First Key , First Key Accuracy"
             },
             {
@@ -4368,6 +4459,7 @@
                 "phraseSet": "Enron mobile dataset",
                 "study": "Yes",
                 "wordsPerMinute": 41.2,
+                "levelOfErrorRate": "character-level",
                 "msder": 4
             },
             {
@@ -4396,6 +4488,7 @@
                 "phraseSet": "Enron mobile dataset",
                 "study": "Yes",
                 "wordsPerMinute": 43.7,
+                "levelOfErrorRate": "character-level",
                 "msder": 2.6
             },
             {
@@ -4425,6 +4518,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 21.42,
                 "msder": 2.3,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "KSPC"
             },
             {
@@ -4454,6 +4548,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 12.1,
                 "msder": 1.12,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "KSPC"
             },
             {
@@ -4483,6 +4578,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 8.98,
                 "msder": 1.9,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "KSPC"
             },
             {
@@ -4552,7 +4648,8 @@
                 "performance": 0.43700000000000006,
                 "effort": 0.5667,
                 "frustration": 0.49439999999999995,
-                "Othermetrics": "subjective keyboard performance [12], perceived\nenjoyment of the Technology Acceptance Model 3 [47], the raw\nNASA task load index [17, 18], the System Usability Scale [6], and\nfor general feedback in open texts"
+                "levelOfErrorRate": "character-level",
+                "Othermetrics": "subjective keyboard performance, perceived\nenjoyment of the Technology Acceptance Model 3, the raw NASA task load index, the System Usability Scale, and for general feedback in open texts"
             },
             {
                 "id": "Dwell keyboard",
@@ -4590,7 +4687,8 @@
                 "performance": 0.3759,
                 "effort": 0.5481,
                 "frustration": 0.413,
-                "Othermetrics": "subjective keyboard performance [12], perceived\nenjoyment of the Technology Acceptance Model 3 [47], the raw\nNASA task load index [17, 18], the System Usability Scale [6], and\nfor general feedback in open texts"
+                "levelOfErrorRate": "character-level",
+                "Othermetrics": "subjective keyboard performance, perceived\nenjoyment of the Technology Acceptance Model 3, the raw NASA task load index, the System Usability Scale [6], and for general feedback in open texts"
             },
             {
                 "id": "Tap Keyboard",
@@ -4628,7 +4726,8 @@
                 "performance": 0.3759,
                 "effort": 0.5241,
                 "frustration": 0.3259,
-                "Othermetrics": "subjective keyboard performance [12], perceived\nenjoyment of the Technology Acceptance Model 3 [47], the raw\nNASA task load index [17, 18], the System Usability Scale [6], and\nfor general feedback in open texts"
+                "levelOfErrorRate": "character-level",
+                "Othermetrics": "subjective keyboard performance, perceived\nenjoyment of the Technology Acceptance Model 3, the raw NASA task load index, the System Usability Scale, and for general feedback in open texts"
             },
             {
                 "id": "Brittlestylus",
@@ -4778,6 +4877,7 @@
                 "wordsPerMinute": 26.3,
                 "msder": 2.1,
                 "overalltlx": 0.5583,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SSQ, IPQ, time to first keypress, spatial presence, head motions, prefference rankings, open comments"
             },
             {
@@ -4808,6 +4908,7 @@
                 "wordsPerMinute": 25.5,
                 "msder": 2.4,
                 "overalltlx": 0.5333,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SSQ, IPQ, time to first keypress, spatial presence, head motions, prefference rankings, open comments"
             },
             {
@@ -4841,6 +4942,7 @@
                 "wordsPerMinute": 11.6,
                 "msder": 2.7,
                 "overalltlx": 0.6,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SSQ, IPQ, time to first keypress, spatial presence, head motions, prefference rankings, open comments"
             },
             {
@@ -4874,6 +4976,7 @@
                 "wordsPerMinute": 8.8,
                 "msder": 3.6,
                 "overalltlx": 0.6167,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "SSQ, IPQ, time to first keypress, spatial presence, head motions, prefference rankings, open comments"
             },
             {
@@ -4915,6 +5018,7 @@
                 "performance": 0.6128571428571429,
                 "effort": 0.40857142857142853,
                 "frustration": 0.26571428571428574,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Preference score: 4.5 for 6 keys"
             },
             {
@@ -4956,6 +5060,7 @@
                 "performance": 0.7142857142857143,
                 "effort": 0.5714285714285714,
                 "frustration": 0.4114285714285714,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Preference score: 4.5 for 6 keys"
             },
             {
@@ -4993,6 +5098,7 @@
                 "cer": 15.8,
                 "uer": 0.85,
                 "ter": 16.650000000000002,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Input Stream Analysis"
             },
             {
@@ -5026,6 +5132,7 @@
                 "wordsPerMinute": 9.72,
                 "cer": 17.38,
                 "uer": 0.25,
+                "levelOfErrorRate": "character-level",
                 "ter": 17.63
             },
             {
@@ -5107,6 +5214,7 @@
                 "cer": 2.0900000000000003,
                 "uer": 0.03,
                 "ter": 2.12,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Auto-Complete Rate"
             },
             {
@@ -5136,6 +5244,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 17.75,
                 "msder": 0.63,
+                "levelOfErrorRate": "character-level",
                 "Othermetrics": "Inter-key timing, Minor revision entry rate (wpm), SUS, custom questionnaire about the technique being (1) quick, (2) accurate, (3) comfortable, (4) useful"
             },
             {
@@ -5186,6 +5295,7 @@
                 "phraseSet": "Enron Email Dataset",
                 "study": "Yes",
                 "wordsPerMinute": 22,
+                "levelOfErrorRate": "character-level",
                 "msder": 2.3
             },
             {
@@ -5217,6 +5327,7 @@
                 "cer": 1.45,
                 "uer": 0.57,
                 "ter": 2.02,
+                "levelOfErrorRate": "word-level",
                 "Othermetrics": "word-level actions: Default, Select and Delete: interview; subjective ratings of Speed, Accuracy, Distance, Fatigue, Learnability, Preference"
             },
             {
@@ -5245,6 +5356,7 @@
                 "cer": 1.23,
                 "uer": 2.46,
                 "ter": 3.69,
+                "levelOfErrorRate": "word-level",
                 "Othermetrics": "word-level actions: Default, Select and Delete: interview; subjective ratings of Speed, Accuracy, Distance, Fatigue, Learnability, Preference"
             },
             {
@@ -5276,6 +5388,7 @@
                 "cer": 3.86,
                 "uer": 1.96,
                 "ter": 5.82,
+                "levelOfErrorRate": "word-level",
                 "Othermetrics": "word-level actions: Default, Select and Delete: interview; subjective ratings of Speed, Accuracy, Distance, Fatigue, Learnability, Preference"
             },
             {
@@ -5308,6 +5421,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 9.86,
                 "msder": 3.75,
+                "levelOfErrorRate": "word-level",
                 "Othermetrics": "Word-Level Error Rate"
             },
             {
@@ -5337,6 +5451,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 9.11,
                 "msder": 8.75,
+                "levelOfErrorRate": "word-level",
                 "Othermetrics": "Word-Level Error Rate"
             },
             {
@@ -5369,6 +5484,7 @@
                 "study": "Yes",
                 "wordsPerMinute": 8.69,
                 "msder": 8.125,
+                "levelOfErrorRate": "word-level",
                 "Othermetrics": "Word-Level Error Rate"
             },
             {
@@ -5451,6 +5567,7 @@
                 "study": "Yes",
                 "otherMetrics": "UEQ, SUS",
                 "wordsPerMinute": 23.6,
+                "levelOfErrorRate": "word-level",
                 "uer": 0.56
             },
             {
@@ -5477,6 +5594,7 @@
                 "study": "Yes",
                 "otherMetrics": "Hand movement, Backspace usage,  Suggestion usage, Gesture duration",
                 "wordsPerMinute": 17.6,
+                "levelOfErrorRate": "word-level",
                 "msder": 1.01
             },
             {
@@ -5503,6 +5621,7 @@
                 "study": "Yes",
                 "otherMetrics": "Hand movement, Backspace usage,  Suggestion usage, Gesture duration",
                 "wordsPerMinute": 17.1,
+                "levelOfErrorRate": "word-level",
                 "msder": 0.71
             }
             

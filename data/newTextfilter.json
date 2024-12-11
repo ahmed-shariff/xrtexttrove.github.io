@@ -395,6 +395,14 @@
         "type" : "textbox",
         "filter" : false,
         "display" : true
+      },
+      {
+        "key" : "levelOfErrorRate",
+        "title" : "Level of Error Rate",
+        "parent" : "Performance Metrics",
+        "type" : "textbox",
+        "filter" : false,
+        "display" : true
       }
   ]
 }
