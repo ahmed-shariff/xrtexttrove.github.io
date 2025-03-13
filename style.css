@@ -1,3 +1,7 @@
+html{
+	background: black;
+}
+
 body{
 	font-size:14px;
 	background-color: black;
@@ -98,6 +102,15 @@ div #myleftmenu{
 /*div #aboutcontent{
   padding: 10px 20px 10px 20px;
 }*/
+
+#aboutcontent {
+	color: #95a5a6; 
+  }
+
+  #aboutcontent h1 {
+	color: #bdc3c7; 
+  }
+  
 
 .filter-checkbox-label{
 	font-size: 12px;
@@ -300,6 +313,8 @@ div .workshop-subsection{
     color:black;
     margin-bottom: 0px;
 }
+
+
 
 /*h1 .workshop-title{
 	margin-top:15px;
